@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sbom-analysis"
+version = "0.0.0"
+description = "SBOM analysis"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cvss>=3.6",
+    "beautifulsoup4>=4.14.3",
+    "gitpython>=3.1.45",
+    "lizard==1.18",
+    "networkx>=3.5",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "perceval>=1.4.1",
+    "python-gitlab>=8.0.0",
+    "pyvis>=0.3.2",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.5",
+    "spdx-tools>=0.8.3",
+    "requests>=2.32.5"
+]
+
+[project.scripts]
+sbom-analysis = "sbom_analysis.cli:main"

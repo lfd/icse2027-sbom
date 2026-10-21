@@ -1,0 +1,3978 @@
+{
+  "libc-l10n": {
+    "downstream": "https://salsa.debian.org/glibc-team/glibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/glibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "openssl-provider-legacy": {
+    "downstream": "https://salsa.debian.org/debian/openssl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/openssl/openssl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libattr1": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/attr.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://git.savannah.nongnu.org/git/attr.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "debian-archive-keyring": {
+    "downstream": "https://salsa.debian.org/release-team/debian-archive-keyring.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "sysvinit-utils": {
+    "downstream": "https://salsa.debian.org/debian/sysvinit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/slicer69/sysvinit.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "debianutils": {
+    "downstream": "https://salsa.debian.org/debian/debianutils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "locales": {
+    "downstream": "https://salsa.debian.org/glibc-team/glibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/glibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libaudit1": {
+    "downstream": "https://salsa.debian.org/debian/audit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/linux-audit/audit-documentation.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gnupg": {
+    "downstream": "https://salsa.debian.org/debian/gnupg2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/gnupg.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libperl5.40": {
+    "downstream": "https://salsa.debian.org/perl-team/interpreter/perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Perl/perl5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxml2": {
+    "downstream": "https://salsa.debian.org/xml-sgml-team/libxml2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.gnome.org/GNOME/libxml2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "perl": {
+    "downstream": "https://salsa.debian.org/perl-team/interpreter/perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Perl/perl5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libselinux1": {
+    "downstream": "https://salsa.debian.org/selinux-team/libselinux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsystemd0": {
+    "downstream": "https://salsa.debian.org/systemd-team/systemd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/systemd/systemd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libseccomp2": {
+    "downstream": "https://salsa.debian.org/debian/libseccomp.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/seccomp/libseccomp.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "grep": {
+    "downstream": "https://salsa.debian.org/debian/grep.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.sv.gnu.org/git/grep.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "mount": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libhogweed6t64": {
+    "downstream": "https://salsa.debian.org/holmgren/nettle.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.lysator.liu.se/nettle/nettle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libc-bin": {
+    "downstream": "https://salsa.debian.org/glibc-team/glibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/glibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "zlib1g": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/madler/zlib.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "dash": {
+    "downstream": "https://salsa.debian.org/debian/dash.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "http://git.kernel.org/pub/scm/utils/dash/dash.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "tar": {
+    "downstream": "https://salsa.debian.org/debian/tar.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/tar.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libapt-pkg7.0": {
+    "downstream": "https://salsa.debian.org/apt-team/apt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Debian/apt.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "apt": {
+    "downstream": "https://salsa.debian.org/apt-team/apt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "mawk": {
+    "downstream": "https://salsa.debian.org/debian/mawk.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ThomasDickey/mawk-snapshots.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "init-system-helpers": {
+    "downstream": "https://salsa.debian.org/debian/init-system-helpers.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "sed": {
+    "downstream": "https://salsa.debian.org/debian/sed.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/sed.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsqlite3-0": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://github.com/sqlite/sqlite.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libcap-ng0": {
+    "downstream": "https://salsa.debian.org/debian/libcap-ng.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/stevegrubb/libcap-ng.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libbsd0": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/libbsd.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://git.hadrons.org/git/libbsd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libgdbm6t64": {
+    "downstream": "https://salsa.debian.org/debian/gdbm.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.gnu.org.ua/gdbm.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libbz2-1.0": {
+    "downstream": "https://salsa.debian.org/debian/bzip2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/bzip2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsmartcols1": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpam-modules": {
+    "downstream": "https://salsa.debian.org/vorlon/pam.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/linux-pam/linux-pam.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libtinfo6": {
+    "downstream": "https://salsa.debian.org/debian/ncurses.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ThomasDickey/ncurses-snapshots.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "procps": {
+    "downstream": "https://salsa.debian.org/debian/procps.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/procps-ng/procps.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "util-linux": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libtasn1-6": {
+    "downstream": "https://salsa.debian.org/gnutls-team/libtasn1.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/gnutls/libtasn1.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "xz-utils": {
+    "downstream": "https://salsa.debian.org/debian/xz-utils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tukaani-project/xz.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "diffutils": {
+    "downstream": "https://salsa.debian.org/sanvila/diffutils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/diffutils.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsemanage-common": {
+    "downstream": "https://salsa.debian.org/selinux-team/libsemanage.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libssl3t64": {
+    "downstream": "https://salsa.debian.org/debian/openssl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/openssl/openssl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxxhash0": {
+    "downstream": "https://salsa.debian.org/debian/xxhash.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Cyan4973/xxHash.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "perl-base": {
+    "downstream": "https://salsa.debian.org/perl-team/interpreter/perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Perl/perl5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libacl1": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/acl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://https.git.savannah.gnu.org/git/acl.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "bsdutils": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "sqv": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/sequoia-sqv.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "openssl": {
+    "downstream": "https://salsa.debian.org/debian/openssl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/openssl/openssl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ucf": {
+    "downstream": "https://salsa.debian.org/debian/ucf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libdebconfclient0": {
+    "downstream": "https://salsa.debian.org/installer-team/cdebconf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libncursesw6": {
+    "downstream": "https://salsa.debian.org/debian/ncurses.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ThomasDickey/ncurses-snapshots.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gcc-14-base": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "liblzma5": {
+    "downstream": "https://salsa.debian.org/debian/xz-utils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tukaani-project/xz.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "perl-modules-5.40": {
+    "downstream": "https://salsa.debian.org/perl-team/interpreter/perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Perl/perl5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "netbase": {
+    "downstream": "https://salsa.debian.org/md/netbase.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libstdc++6": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "tzdata": {
+    "downstream": "https://salsa.debian.org/glibc-team/tzdata.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/eggert/tz.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libgcrypt20": {
+    "downstream": "https://salsa.debian.org/gnutls-team/libgcrypt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/libgcrypt.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "login.defs": {
+    "downstream": "https://salsa.debian.org/debian/shadow.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/shadow-maint/shadow.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ncurses-base": {
+    "downstream": "https://salsa.debian.org/debian/ncurses.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ThomasDickey/ncurses-snapshots.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "readline-common": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://git.savannah.gnu.org/git/readline.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libgmp10": {
+    "downstream": "https://salsa.debian.org/science-team/gmp.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libcap2": {
+    "downstream": "https://salsa.debian.org/debian/libcap2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/libs/libcap/libcap.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libtext-charwidth-perl": {
+    "downstream": "https://salsa.debian.org/perl-team/modules/packages/libtext-charwidth-perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "adduser": {
+    "downstream": "https://salsa.debian.org/debian/adduser.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "liblz4-1": {
+    "downstream": "https://salsa.debian.org/debian/lz4.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/lz4/lz4.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libtext-wrapi18n-perl": {
+    "downstream": "https://salsa.debian.org/perl-team/modules/packages/libtext-wrapi18n-perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "base-passwd": {
+    "downstream": "https://salsa.debian.org/debian/base-passwd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libzstd1": {
+    "downstream": "https://salsa.debian.org/pkg-rpm-team/libzstd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/facebook/zstd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "login": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libdb5.3t64": {
+    "downstream": "https://salsa.debian.org/debian/db5.3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/berkeleydb/libdb.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsemanage2": {
+    "downstream": "https://salsa.debian.org/selinux-team/libsemanage.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libc6": {
+    "downstream": "https://salsa.debian.org/glibc-team/glibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/glibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libaudit-common": {
+    "downstream": "https://salsa.debian.org/debian/audit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/linux-audit/audit-documentation.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "hostname": {
+    "downstream": "https://salsa.debian.org/meskes/hostname.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "debconf": {
+    "downstream": "https://salsa.debian.org/pkg-debconf/debconf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libudev1": {
+    "downstream": "https://salsa.debian.org/systemd-team/systemd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/systemd/systemd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "passwd": {
+    "downstream": "https://salsa.debian.org/debian/shadow.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/shadow-maint/shadow.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "base-files": {
+    "downstream": "https://salsa.debian.org/sanvila/base-files.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libmd0": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/libmd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.hadrons.org/git/libmd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libuuid1": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libgcc-s1": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libffi8": {
+    "downstream": "https://salsa.debian.org/toolchain-team/libffi.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/libffi/libffi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ssl-cert": {
+    "downstream": "https://salsa.debian.org/apache-team/ssl-cert.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libgdbm-compat4t64": {
+    "downstream": "https://salsa.debian.org/debian/gdbm.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.gnu.org.ua/gdbm.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libpcre2-8-0": {
+    "downstream": "https://salsa.debian.org/debian/pcre2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/PCRE2Project/pcre2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "findutils": {
+    "downstream": "https://salsa.debian.org/debian/findutils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/findutils.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ncurses-bin": {
+    "downstream": "https://salsa.debian.org/debian/ncurses.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ThomasDickey/ncurses-snapshots.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libmount1": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libblkid1": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gzip": {
+    "downstream": "https://salsa.debian.org/debian/gzip.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/gzip.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "dpkg": {
+    "downstream": "https://git.dpkg.org/git/dpkg/dpkg.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "bash": {
+    "downstream": "https://salsa.debian.org/debian/bash.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://git.savannah.gnu.org/git/bash.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpam-runtime": {
+    "downstream": "https://salsa.debian.org/vorlon/pam.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/linux-pam/linux-pam.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "coreutils": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://github.com/coreutils/coreutils.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "liblastlog2-2": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libnettle8t64": {
+    "downstream": "https://salsa.debian.org/holmgren/nettle.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.lysator.liu.se/nettle/nettle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpam-modules-bin": {
+    "downstream": "https://salsa.debian.org/vorlon/pam.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/linux-pam/linux-pam.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libcrypt1": {
+    "downstream": "https://salsa.debian.org/md/libxcrypt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/besser82/libxcrypt.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsepol2": {
+    "downstream": "https://salsa.debian.org/selinux-team/libsepol.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpam0g": {
+    "downstream": "https://salsa.debian.org/vorlon/pam.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/linux-pam/linux-pam.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "sensible-utils": {
+    "downstream": "https://salsa.debian.org/debian/sensible-utils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libreadline8t64": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://git.savannah.gnu.org/git/readline.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "curl": {
+    "downstream": "https://salsa.debian.org/debian/curl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/bagder/curl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "serf": {
+    "downstream": "https://salsa.debian.org/jamessan/serf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/apache/serf.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "lerc": {
+    "downstream": "https://salsa.debian.org/debian-gis-team/lerc.git",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/Esri/lerc.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "p11-kit": {
+    "downstream": "https://salsa.debian.org/gnutls-team/p11-kit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/p11-glue/p11-kit.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "pinentry": {
+    "downstream": "https://salsa.debian.org/debian/pinentry.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/pinentry.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "jbigkit": {
+    "downstream": "https://salsa.debian.org/debian-phototools-team/jbigkit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libselinux": {
+    "downstream": "https://salsa.debian.org/selinux-team/libselinux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "tk8.6": {
+    "downstream": "https://salsa.debian.org/tcltk-team/tk8.6.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tcltk/tk.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "gobject-introspection": {
+    "downstream": "https://salsa.debian.org/gnome-team/gobject-introspection.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.gnome.org/GNOME/gobject-introspection.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "audit": {
+    "downstream": "https://salsa.debian.org/debian/audit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/linux-audit/audit-documentation.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libmd": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/libmd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.hadrons.org/git/libmd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxt": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libxt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libxt.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libassuan": {
+    "downstream": "https://salsa.debian.org/debian/libassuan.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/libassuan.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpng1.6": {
+    "downstream": "https://salsa.debian.org/debian/libpng1.6.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/pnggroup/libpng.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libraw": {
+    "downstream": "https://salsa.debian.org/debian-phototools-team/libraw.git",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/LibRaw/LibRaw.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsm": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libsm.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libsm.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "freetype": {
+    "downstream": "https://salsa.debian.org/debian/freetype.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/freetype/freetype.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "fribidi": {
+    "downstream": "https://salsa.debian.org/debian/fribidi.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/fribidi/fribidi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxext": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libxext.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libxext.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "glibc": {
+    "downstream": "https://salsa.debian.org/glibc-team/glibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/glibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "db5.3": {
+    "downstream": "https://salsa.debian.org/debian/db5.3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/berkeleydb/libdb.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libzstd": {
+    "downstream": "https://salsa.debian.org/pkg-rpm-team/libzstd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/facebook/zstd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "bzip2": {
+    "downstream": "https://salsa.debian.org/debian/bzip2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/bzip2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "krb5": {
+    "downstream": "https://salsa.debian.org/debian/krb5.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/krb5/krb5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rtmpdump": {
+    "downstream": "https://salsa.debian.org/multimedia-team/rtmpdump.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://git.ffmpeg.org/rtmpdump.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "mpclib3": {
+    "downstream": "https://salsa.debian.org/toolchain-team/mpclib.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.inria.fr/mpc/mpc.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "git": {
+    "downstream": "https://repo.or.cz/r/git/debian.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/git/git.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "m4": {
+    "downstream": "https://salsa.debian.org/sanvila/m4.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/m4.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "zlib": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://github.com/madler/zlib.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "brotli": {
+    "downstream": "https://salsa.debian.org/debian/brotli.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/google/brotli.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rpcsvc-proto": {
+    "downstream": "https://salsa.debian.org/glibc-team/rpcsvc-proto.git",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://github.com/thkukuk/rpcsvc-proto.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "cdebconf": {
+    "downstream": "https://salsa.debian.org/installer-team/cdebconf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "apr": {
+    "downstream": "https://salsa.debian.org/apache-team/apr.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/apache/apr.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libxdmcp": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libxdmcp.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libXdmcp.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libjpeg-turbo": {
+    "downstream": "https://salsa.debian.org/debian/libjpeg-turbo.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/libjpeg-turbo/libjpeg-turbo.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "acl": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/acl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://https.git.savannah.gnu.org/git/acl.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "pixman": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/pixman.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/pixman/pixman.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libgpg-error": {
+    "downstream": "https://salsa.debian.org/debian/libgpg-error.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/libgpg-error.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "npth": {
+    "downstream": "https://salsa.debian.org/eric/npth.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/npth.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "pango1.0": {
+    "downstream": "https://salsa.debian.org/gnome-team/pango.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.gnome.org/GNOME/pango.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "pam": {
+    "downstream": "https://salsa.debian.org/vorlon/pam.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/linux-pam/linux-pam.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "sysprof": {
+    "downstream": "https://salsa.debian.org/gnome-team/sysprof.git",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://gitlab.gnome.org/GNOME/sysprof.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "imagemagick": {
+    "downstream": "https://salsa.debian.org/debian/imagemagick.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ImageMagick/ImageMagick6.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "dav1d": {
+    "downstream": "https://salsa.debian.org/multimedia-team/dav1d.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://code.videolan.org/videolan/dav1d.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxcb": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libxcb.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libxcb.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "expat": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/libexpat/libexpat.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "linux": {
+    "downstream": "https://salsa.debian.org/kernel-team/linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "make-dfsg": {
+    "downstream": "https://salsa.debian.org/debian/make.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/make.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ncurses": {
+    "downstream": "https://salsa.debian.org/debian/ncurses.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ThomasDickey/ncurses-snapshots.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "rust-sequoia-sq": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/sequoia-sq.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "librsvg": {
+    "downstream": "https://salsa.debian.org/gnome-team/librsvg.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.gnome.org/GNOME/librsvg.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "openexr": {
+    "downstream": "https://salsa.debian.org/debian-phototools-team/openexr.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/AcademySoftwareFoundation/openexr.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "cairo": {
+    "downstream": "https://salsa.debian.org/gnome-team/cairo.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/cairo/cairo.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "liberror-perl": {
+    "downstream": "https://salsa.debian.org/perl-team/modules/packages/liberror-perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/shlomif/perl-error.pm.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libwebp": {
+    "downstream": "https://salsa.debian.org/debian/libwebp.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://chromium.googlesource.com/webm/libwebp.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "openssh": {
+    "downstream": "https://salsa.debian.org/ssh-team/openssh.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/openssh/openssh-portable.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxau": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libxau.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libxau.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "tcl8.6": {
+    "downstream": "https://salsa.debian.org/tcltk-team/tcl8.6.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tcltk/tcl.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libwmf": {
+    "downstream": "https://salsa.debian.org/yangfl-guest/libwmf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/caolanm/libwmf.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "mariadb": {
+    "downstream": "https://salsa.debian.org/mariadb-team/mariadb-server.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/MariaDB/server.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libedit": {
+    "downstream": "https://salsa.debian.org/debian/libedit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "autoconf": {
+    "downstream": "https://salsa.debian.org/debian/autoconf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/autoconf.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gmp": {
+    "downstream": "https://salsa.debian.org/science-team/gmp.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "imath": {
+    "downstream": "https://salsa.debian.org/debian-phototools-team/imath.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/AcademySoftwareFoundation/Imath.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "ca-certificates": {
+    "downstream": "https://salsa.debian.org/debian/ca-certificates.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libxslt": {
+    "downstream": "https://salsa.debian.org/xml-sgml-team/libxslt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.gnome.org/GNOME/libxslt.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libice": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libice.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libice.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "nghttp2": {
+    "downstream": "https://salsa.debian.org/debian/nghttp2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/nghttp2/nghttp2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libfido2": {
+    "downstream": "https://salsa.debian.org/auth-team/libfido2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Yubico/libfido2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "systemd": {
+    "downstream": "https://salsa.debian.org/systemd-team/systemd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/systemd/systemd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ngtcp2": {
+    "downstream": "https://salsa.debian.org/saki/ngtcp2.git",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/ngtcp2/ngtcp2.git",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "tiff": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://gitlab.com/libtiff/libtiff.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libcbor": {
+    "downstream": "https://salsa.debian.org/debian/libcbor.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/PJK/libcbor.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "fftw3": {
+    "downstream": "https://salsa.debian.org/science-team/fftw3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/FFTW/fftw3.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-defaults": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3-defaults.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "unbound": {
+    "downstream": "https://salsa.debian.org/dns-team/unbound.git",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://github.com/NLnetLabs/unbound.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "djvulibre": {
+    "downstream": "https://salsa.debian.org/debian/djvulibre.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/barak/djvulibre.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "unzip": {
+    "downstream": "https://salsa.debian.org/sanvila/unzip.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/madler/unzip.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "xft": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/xft.git",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libxft.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libksba": {
+    "downstream": "https://salsa.debian.org/gnutls-team/libksba.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/libksba.git",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "libdeflate": {
+    "downstream": "https://salsa.debian.org/med-team/libdeflate.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ebiggers/libdeflate.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "pcre2": {
+    "downstream": "https://salsa.debian.org/debian/pcre2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/PCRE2Project/pcre2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gnutls28": {
+    "downstream": "https://salsa.debian.org/gnutls-team/gnutls.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/gnutls/gnutls.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "autotools-dev": {
+    "downstream": "https://salsa.debian.org/hmh/autotools-dev.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.savannah.gnu.org/config.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "jansson": {
+    "downstream": "https://salsa.debian.org/debian/jansson.git",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/akheron/jansson.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "wget": {
+    "downstream": "https://salsa.debian.org/debian/wget.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/wget.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libdatrie": {
+    "downstream": "https://salsa.debian.org/debian/libdatrie.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tlwg/libdatrie.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "glib2.0": {
+    "downstream": "https://salsa.debian.org/gnome-team/glib.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.gnome.org/GNOME/glib.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libyaml": {
+    "downstream": "https://salsa.debian.org/debian/libyaml.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://salsa.debian.org/andersk/libyaml.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "lcms2": {
+    "downstream": "https://salsa.debian.org/debian/lcms2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/mm2/Little-CMS.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libthai": {
+    "downstream": "https://salsa.debian.org/debian/libthai.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tlwg/libthai.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libffi": {
+    "downstream": "https://salsa.debian.org/toolchain-team/libffi.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://github.com/libffi/libffi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "mercurial": {
+    "downstream": "https://salsa.debian.org/python-team/packages/mercurial.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "openjpeg2": {
+    "downstream": "https://salsa.debian.org/debian-phototools-team/openjpeg2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/uclouvain/openjpeg.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "subversion": {
+    "downstream": "https://salsa.debian.org/jamessan/subversion.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/apache/subversion.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "gdbm": {
+    "downstream": "https://salsa.debian.org/debian/gdbm.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.gnu.org.ua/gdbm.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "shared-mime-info": {
+    "downstream": "https://salsa.debian.org/freedesktop-team/shared-mime-info.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xdg/shared-mime-info.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libssh2": {
+    "downstream": "https://salsa.debian.org/debian/libssh2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/libssh2/libssh2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-sequoia-sqv": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/sequoia-sqv.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libheif": {
+    "downstream": "https://salsa.debian.org/multimedia-team/libheif.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/strukturag/libheif.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "hicolor-icon-theme": {
+    "downstream": "https://salsa.debian.org/gnome-team/hicolor-icon-theme.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xdg/default-icon-theme.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "sqlite3": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/sqlite/sqlite.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "openldap": {
+    "downstream": "https://salsa.debian.org/openldap-team/openldap.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.openldap.org/openldap/openldap.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libbsd": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/libbsd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.hadrons.org/git/libbsd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "xorgproto": {
+    "downstream": "https://salsa.debian.org/xorg-team/proto/xorgproto.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/proto/xorgproto.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "fontconfig": {
+    "downstream": "https://salsa.debian.org/freedesktop-team/fontconfig.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/fontconfig/fontconfig.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxrender": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libxrender.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libxrender.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "fonts-dejavu": {
+    "downstream": "https://salsa.debian.org/fonts-team/fonts-dejavu.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dejavu-fonts/dejavu-fonts.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "graphite2": {
+    "downstream": "https://salsa.debian.org/fonts-team/graphite2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/silnrsi/graphite.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "xxhash": {
+    "downstream": "https://salsa.debian.org/debian/xxhash.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Cyan4973/xxHash.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "mysql-defaults": {
+    "downstream": "https://salsa.debian.org/mariadb-team/mysql.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/mysql/mysql-server.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "file": {
+    "downstream": "https://git.in-ulm.de/cbiedl/file.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://github.com/file/file.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "attr": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/attr.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://git.savannah.nongnu.org/git/attr.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "gcc-defaults": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc-defaults.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "media-types": {
+    "downstream": "https://salsa.debian.org/debian/media-types.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "libcap-ng": {
+    "downstream": "https://salsa.debian.org/debian/libcap-ng.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/stevegrubb/libcap-ng.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "patch": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://git.savannah.gnu.org/git/patch.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "xtrans": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/xtrans.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libxtrans.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "shadow": {
+    "downstream": "https://salsa.debian.org/debian/shadow.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/shadow-maint/shadow.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "apr-util": {
+    "downstream": "https://salsa.debian.org/apache-team/apr-util.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/apache/apr-util.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "xorg": {
+    "downstream": "https://salsa.debian.org/xorg-team/debian/xorg.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "python-packaging": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-packaging.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/pypa/packaging.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsemanage": {
+    "downstream": "https://salsa.debian.org/selinux-team/libsemanage.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libmaxminddb": {
+    "downstream": "https://salsa.debian.org/debian/libmaxminddb.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/maxmind/libmaxminddb.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "nettle": {
+    "downstream": "https://salsa.debian.org/holmgren/nettle.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.lysator.liu.se/nettle/nettle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxss": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libxss.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libxscrnsaver.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libunistring": {
+    "downstream": "https://salsa.debian.org/debian/libunistring.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/libunistring.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "elfutils": {
+    "downstream": "https://salsa.debian.org/toolchain-team/elfutils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/elfutils.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "cyrus-sasl2": {
+    "downstream": "https://salsa.debian.org/debian/cyrus-sasl2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/cyrusimap/cyrus-sasl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpsl": {
+    "downstream": "https://salsa.debian.org/debian/libpsl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rockdaboot/libpsl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "utf8proc": {
+    "downstream": "https://salsa.debian.org/debian/utf8proc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/JuliaStrings/utf8proc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libx11": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libx11.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/libX11.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsepol": {
+    "downstream": "https://salsa.debian.org/selinux-team/libsepol.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "architecture-properties": {
+    "downstream": "https://salsa.debian.org/debian/architecture-properties.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libseccomp": {
+    "downstream": "https://salsa.debian.org/debian/libseccomp.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/seccomp/libseccomp.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "binutils": {
+    "downstream": "https://salsa.debian.org/toolchain-team/binutils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/binutils-gdb.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libevent": {
+    "downstream": "https://salsa.debian.org/debian/libevent.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/libevent/libevent.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "pkgconf": {
+    "downstream": "https://salsa.debian.org/debian/pkgconf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/pkgconf/pkgconf.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libexif": {
+    "downstream": "https://salsa.debian.org/debian-phototools-team/libexif.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/libexif/libexif.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libxcrypt": {
+    "downstream": "https://salsa.debian.org/md/libxcrypt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/besser82/libxcrypt.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "nghttp3": {
+    "downstream": "https://salsa.debian.org/saki/nghttp3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/ngtcp2/nghttp3.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libde265": {
+    "downstream": "https://salsa.debian.org/multimedia-team/libde265.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/strukturag/libde265.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "mpfr4": {
+    "downstream": "https://salsa.debian.org/toolchain-team/mpfr.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://gitlab.inria.fr/mpfr/mpfr.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "gnupg2": {
+    "downstream": "https://salsa.debian.org/debian/gnupg2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/gnupg.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "e2fsprogs": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "sysvinit": {
+    "downstream": "https://salsa.debian.org/debian/sysvinit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/slicer69/sysvinit.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "xorg-sgml-doctools": {
+    "downstream": "https://salsa.debian.org/xorg-team/doc/xorg-sgml-doctools.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://gitlab.freedesktop.org/xorg/doc/xorg-sgml-doctools.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libtool": {
+    "downstream": "https://salsa.debian.org/mckinstry/libtool.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/libtool.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "harfbuzz": {
+    "downstream": "https://salsa.debian.org/freedesktop-team/harfbuzz.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/harfbuzz/harfbuzz.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "bluez": {
+    "downstream": "https://salsa.debian.org/bluetooth-team/bluez.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/bluetooth/bluez.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "lzo2": {
+    "downstream": "https://salsa.debian.org/debian/lzo2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/nemequ/lzo.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "liblqr": {
+    "downstream": "git://git.recluse.de/debian/pkg-liblqr.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/carlobaldassi/liblqr.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "keyutils": {
+    "downstream": "https://salsa.debian.org/debian/keyutils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "lz4": {
+    "downstream": "https://salsa.debian.org/debian/lz4.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/lz4/lz4.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gdk-pixbuf": {
+    "downstream": "https://salsa.debian.org/gnome-team/gdk-pixbuf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.gnome.org/GNOME/gdk-pixbuf.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libidn2": {
+    "downstream": "https://salsa.debian.org/debian/libidn2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/libidn/libidn2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpython3.13-stdlib": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/python/cpython.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-packageurl": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-packageurl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/package-url/packageurl-python.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-ply": {
+    "downstream": "https://salsa.debian.org/jcfp/ply.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dabeaz/ply.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "pyyaml": {
+    "downstream": "https://salsa.debian.org/python-team/packages/pyyaml.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/yaml/pyyaml.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-certifi": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-certifi.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/certifi/python-certifi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-cffi-backend": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-cffi.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/python-cffi/cffi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-license-expression": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-license-expression.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/aboutcode-org/license-expression.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "python-xmltodict": {
+    "downstream": "https://salsa.debian.org/debian/python-xmltodict.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/martinblech/xmltodict.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3.13": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/python/cpython.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-minimal": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3-defaults.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "python3.13-minimal": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/python/cpython.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-packageurl": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-packageurl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/package-url/packageurl-python.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-certifi": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-certifi.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/certifi/python-certifi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "readline": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://git.savannah.gnu.org/git/readline.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-yaml": {
+    "downstream": "https://salsa.debian.org/python-team/packages/pyyaml.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/yaml/pyyaml.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-buffered-reader": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/sequoia.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "node-jquery": {
+    "downstream": "https://salsa.debian.org/js-team/node-jquery.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/jquery/jquery.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-zstandard": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-zstandard.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/indygreg/python-zstandard.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-requests": {
+    "downstream": "https://salsa.debian.org/python-team/packages/requests.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/psf/requests.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-boolean": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-boolean.py.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/bastikr/boolean.py.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "sphinx": {
+    "downstream": "https://salsa.debian.org/python-team/packages/sphinx.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/sphinx-doc/sphinx.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-xmltodict": {
+    "downstream": "https://salsa.debian.org/debian/python-xmltodict.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/martinblech/xmltodict.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-chardet": {
+    "downstream": "https://salsa.debian.org/python-team/packages/chardet.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/chardet/chardet.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-idna": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-idna.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/kjd/idna.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "distro-info-data": {
+    "downstream": "https://salsa.debian.org/debian/distro-info-data.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "python3-click": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-click.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/pallets/click.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-boolean.py": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-boolean.py.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/bastikr/boolean.py.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "chardet": {
+    "downstream": "https://salsa.debian.org/python-team/packages/chardet.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/chardet/chardet.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-rdflib": {
+    "downstream": "https://salsa.debian.org/python-team/packages/rdflib.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RDFLib/rdflib.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-zstandard": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-zstandard.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/indygreg/python-zstandard.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-click": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-click.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/pallets/click.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libexpat1": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://github.com/libexpat/libexpat.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-apt": {
+    "downstream": "https://salsa.debian.org/apt-team/python-apt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "python-cffi": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-cffi.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/python-cffi/cffi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-py-serializable": {
+    "downstream": "https://salsa.debian.org/python-team/packages/py-serializable.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/madpah/serializable.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "pyparsing": {
+    "downstream": "https://salsa.debian.org/python-team/packages/pyparsing.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/pyparsing/pyparsing.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rdflib": {
+    "downstream": "https://salsa.debian.org/python-team/packages/rdflib.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RDFLib/rdflib.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-defusedxml": {
+    "downstream": "https://salsa.debian.org/python-team/packages/defusedxml.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tiran/defusedxml.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-nettle-sys": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/nettle-rs.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "python3-charset-normalizer": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-charset-normalizer.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/jawah/charset_normalizer.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-charset-normalizer": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-charset-normalizer.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/jawah/charset_normalizer.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "sortedcontainers": {
+    "downstream": "https://salsa.debian.org/python-team/packages/sortedcontainers.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/grantjenks/python-sortedcontainers.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-sequoia-openpgp": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/sequoia.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "python3-apt": {
+    "downstream": "https://salsa.debian.org/apt-team/python-apt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "py-serializable": {
+    "downstream": "https://salsa.debian.org/python-team/packages/py-serializable.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/madpah/serializable.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libjs-underscore": {
+    "downstream": "https://salsa.debian.org/js-team/underscore.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/jashkenas/underscore.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "cyclonedx-python-lib": {
+    "downstream": "https://salsa.debian.org/python-team/packages/cyclonedx-python-lib.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/CycloneDX/cyclonedx-python-lib.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-semantic-version": {
+    "downstream": "https://salsa.debian.org/openstack-team/python/python-semantic-version.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rbarrois/python-semanticversion.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-sortedcontainers": {
+    "downstream": "https://salsa.debian.org/python-team/packages/sortedcontainers.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/grantjenks/python-sortedcontainers.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-idna": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-idna.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/kjd/idna.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libjs-sphinxdoc": {
+    "downstream": "https://salsa.debian.org/python-team/packages/sphinx.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/sphinx-doc/sphinx.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpython3.13-minimal": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/python/cpython.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rustc": {
+    "downstream": "https://salsa.debian.org/rust-team/rust.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-lang/rust.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-debian": {
+    "downstream": "https://salsa.debian.org/python-debian-team/python-debian.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libjs-jquery": {
+    "downstream": "https://salsa.debian.org/js-team/node-jquery.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/jquery/jquery.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-beartype": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-beartype.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/beartype/beartype.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-nettle": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/nettle-rs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3-defaults.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "python-apt-common": {
+    "downstream": "https://salsa.debian.org/apt-team/python-apt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "defusedxml": {
+    "downstream": "https://salsa.debian.org/python-team/packages/defusedxml.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tiran/defusedxml.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "underscore": {
+    "downstream": "https://salsa.debian.org/js-team/underscore.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/jashkenas/underscore.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-semantic-version": {
+    "downstream": "https://salsa.debian.org/openstack-team/python/python-semantic-version.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rbarrois/python-semanticversion.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-pyparsing": {
+    "downstream": "https://salsa.debian.org/python-team/packages/pyparsing.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/pyparsing/pyparsing.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpython3-stdlib": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3-defaults.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "python3-uritools": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-uritools.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tkem/uritools.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-sequoia-policy-config": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/sequoia-policy-config.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "python-license-expression": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-license-expression.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/aboutcode-org/license-expression.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "python3-urllib3": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-urllib3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/urllib3/urllib3.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ply": {
+    "downstream": "https://salsa.debian.org/jcfp/ply.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dabeaz/ply.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-debian": {
+    "downstream": "https://salsa.debian.org/python-debian-team/python-debian.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "libyaml-0-2": {
+    "downstream": "https://salsa.debian.org/debian/libyaml.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://salsa.debian.org/andersk/libyaml.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-urllib3": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-urllib3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/urllib3/urllib3.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-beartype": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-beartype.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/beartype/beartype.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3-cyclonedx-lib": {
+    "downstream": "https://salsa.debian.org/python-team/packages/cyclonedx-python-lib.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/CycloneDX/cyclonedx-python-lib.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python-uritools": {
+    "downstream": "https://salsa.debian.org/python-team/packages/python-uritools.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/tkem/uritools.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "requests": {
+    "downstream": "https://salsa.debian.org/python-team/packages/requests.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/psf/requests.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gcc-14": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "initramfs-tools": {
+    "downstream": "https://salsa.debian.org/kernel-team/initramfs-tools.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "systemd-sysv": {
+    "downstream": "https://salsa.debian.org/systemd-team/systemd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/systemd/systemd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "cpio": {
+    "downstream": "https://salsa.debian.org/lamby/pkg-cpio.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/cpio.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "dracut": {
+    "downstream": "https://salsa.debian.org/kernel-team/dracut.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dracut-ng/dracut-ng.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libkmod2": {
+    "downstream": "https://salsa.debian.org/md/kmod.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/kmod-project/kmod.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "linux-image-amd64": {
+    "downstream": "https://salsa.debian.org/kernel-team/linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "linux-image-6.12.57+deb13-amd64": {
+    "downstream": "https://salsa.debian.org/kernel-team/linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "init": {
+    "downstream": "https://salsa.debian.org/debian/init-system-helpers.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "logsave": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "klibc": {
+    "downstream": "https://salsa.debian.org/kernel-team/klibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/libs/klibc/klibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "initramfs-tools-bin": {
+    "downstream": "https://salsa.debian.org/kernel-team/initramfs-tools.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "isar-exclude-docs": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/ilbers/isar.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "apparmor": {
+    "downstream": "https://salsa.debian.org/apparmor-team/apparmor.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/apparmor/apparmor.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libapparmor1": {
+    "downstream": "https://salsa.debian.org/apparmor-team/apparmor.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/apparmor/apparmor.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "linux-base": {
+    "downstream": "https://salsa.debian.org/kernel-team/linux-base.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "linux-signed-amd64": {
+    "downstream": "https://salsa.debian.org/kernel-team/linux-signed.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "kmod": {
+    "downstream": "https://salsa.debian.org/md/kmod.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/kmod-project/kmod.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "initramfs-tools-core": {
+    "downstream": "https://salsa.debian.org/kernel-team/initramfs-tools.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "klibc-utils": {
+    "downstream": "https://salsa.debian.org/kernel-team/klibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/libs/klibc/klibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "dracut-install": {
+    "downstream": "https://salsa.debian.org/kernel-team/dracut.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dracut-ng/dracut-ng.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsystemd-shared": {
+    "downstream": "https://salsa.debian.org/systemd-team/systemd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/systemd/systemd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libklibc": {
+    "downstream": "https://salsa.debian.org/kernel-team/klibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/libs/klibc/klibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "udev": {
+    "downstream": "https://salsa.debian.org/systemd-team/systemd.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/systemd/systemd.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "grub-efi-amd64-bin": {
+    "downstream": "https://salsa.debian.org/grub-team/grub.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/grub.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "grub2": {
+    "downstream": "https://salsa.debian.org/grub-team/grub.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/grub.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ISAR-Debian-GNU-Linux-Image": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/ilbers/isar.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ISAR-Debian-GNU-Linux": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/ilbers/isar.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ISAR-Debian-GNU-Linux-Imager": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://github.com/ilbers/isar.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "apache2": {
+    "downstream": "https://salsa.debian.org/apache-team/apache2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/apache/httpd.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "gcc-4.7": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "inetutils": {
+    "downstream": "https://git.hadrons.org/git/debian/pkgs/inetutils.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://git.savannah.gnu.org/git/inetutils.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "insserv": {
+    "downstream": "https://salsa.debian.org/debian/insserv.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://codeberg.org/thejessesmith/insserv.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "iproute": {
+    "downstream": "https://git.debian.org/git/collab-maint/pkg-iproute.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "eglibc": {
+    "downstream": "https://salsa.debian.org/glibc-team/glibc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://sourceware.org/git/glibc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libclass-isa-perl": {
+    "downstream": "https://salsa.debian.org/perl-team/modules/packages/libclass-isa-perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "db": {
+    "downstream": "https://salsa.debian.org/debian/db5.3.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://github.com/berkeleydb/libdb.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libgcrypt11": {
+    "downstream": "https://salsa.debian.org/gnutls-team/libgcrypt.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "git://git.gnupg.org/libgcrypt.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "gnutls26": {
+    "downstream": "https://salsa.debian.org/gnutls-team/gnutls.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/gnutls/gnutls.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gpm": {
+    "downstream": "https://salsa.debian.org/debian/gpm.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/telmich/gpm.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "liblocale-gettext-perl": {
+    "downstream": "https://salsa.debian.org/perl-team/modules/packages/liblocale-gettext-perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/vandry/Perl-Locale-gettext.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "pcre3": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "readline6": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://git.savannah.gnu.org/git/readline.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "slang2": {
+    "downstream": "https://salsa.debian.org/debian/slang2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libswitch-perl": {
+    "downstream": "https://salsa.debian.org/perl-team/modules/packages/libswitch-perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/chorny/Switch.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libtasn1-3": {
+    "downstream": "https://salsa.debian.org/gnutls-team/libtasn1.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/gnutls/libtasn1.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libtext-iconv-perl": {
+    "downstream": "https://salsa.debian.org/perl-team/modules/packages/libtext-iconv-perl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "libusb": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://github.com/libusb/libusb.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "ustr": {
+    "downstream": "https://salsa.debian.org/zito-guest/pkg-ustr.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "lsb": {
+    "downstream": "https://salsa.debian.org/debian/lsb.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "mime-support": {
+    "downstream": "https://salsa.debian.org/debian/mime-support.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "psmisc": {
+    "downstream": "https://salsa.debian.org/debian/psmisc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/psmisc/psmisc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "automake-1.16": {
+    "downstream": "https://salsa.debian.org/eric/automake.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/automake.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gcc-10": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gcc-9": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "aom": {
+    "downstream": "https://salsa.debian.org/multimedia-team/aom.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://aomedia.googlesource.com/aom.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "db-defaults": {
+    "downstream": "https://salsa.debian.org/debian/db-defaults.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "ilmbase": {
+    "downstream": "https://salsa.debian.org/debian-phototools-team/ilmbase.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/AcademySoftwareFoundation/openexr.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "mariadb-10.5": {
+    "downstream": "https://salsa.debian.org/mariadb-team/mariadb-server.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/MariaDB/server.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "mpdecimal": {
+    "downstream": "https://salsa.debian.org/debian/mpdecimal.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "libnsl": {
+    "downstream": "https://salsa.debian.org/glibc-team/libnsl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/thkukuk/libnsl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "numactl": {
+    "downstream": "https://salsa.debian.org/debian/numactl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/numactl/numactl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "postgresql-13": {
+    "downstream": "https://salsa.debian.org/postgresql/postgresql.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/postgres/postgres",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpthread-stubs": {
+    "downstream": "https://salsa.debian.org/xorg-team/lib/libpthread-stubs.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.freedesktop.org/xorg/lib/pthread-stubs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "python3.9": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/python/cpython.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsigsegv": {
+    "downstream": "https://salsa.debian.org/common-lisp-team/libsigsegv.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/libsigsegv.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libtirpc": {
+    "downstream": "https://salsa.debian.org/debian/libtirpc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.linux-nfs.org/projects/steved/libtirpc.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "x265": {
+    "downstream": "https://salsa.debian.org/multimedia-team/x265.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://bitbucket.org/multicoreware/x265_git.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "pkg-config": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "",
+    "upstream": "https://gitlab.freedesktop.org/pkg-config/pkg-config.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "python3-stdlib-extensions": {
+    "downstream": "https://salsa.debian.org/cpython-team/python3-stdlib.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": ""
+  },
+  "rust-aho-corasick": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/BurntSushi/aho-corasick.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-anstream": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-cli/anstyle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-anstyle": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-cli/anstyle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-anstyle-parse": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-cli/anstyle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-anstyle-query": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-cli/anstyle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-anyhow": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dtolnay/anyhow.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-argon2": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RustCrypto/password-hashes.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-base64": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/marshallpierce/rust-base64.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-base64ct": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RustCrypto/formats.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-bitflags": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/bitflags/bitflags.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-blake2": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RustCrypto/hashes.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-block-buffer": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RustCrypto/utils.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-cfg-if": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-lang/cfg-if.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-chrono": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/chronotope/chrono.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-clap": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/clap-rs/clap.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-clap-builder": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/clap-rs/clap.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-clap-lex": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/clap-rs/clap.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-colorchoice": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-cli/anstyle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-crypto-common": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RustCrypto/traits.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-digest": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RustCrypto/traits.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-dyn-clone": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dtolnay/dyn-clone.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-generic-array": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/fizyk20/generic-array.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-getrandom": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-random/getrandom.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-iana-time-zone": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/strawlab/iana-time-zone.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-idna": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/servo/rust-url.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-idna-adapter": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/hsivonen/idna_adapter.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-idna-mapping": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/hsivonen/idna_mapping.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-lalrpop-util": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/lalrpop/lalrpop.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-lazy-static": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-lang-nursery/lazy-static.rs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-libc": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-lang/libc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-linux-raw-sys": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/sunfishcode/linux-raw-sys.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-memchr": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/BurntSushi/memchr.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-memsec": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/quininer/memsec.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-num-traits": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-num/num-traits.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-password-hash": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/RustCrypto/traits.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-rand-core": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-lang-nursery/rand.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-regex": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-lang/regex.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-regex-automata": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-lang/regex.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-regex-syntax": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rust-lang/regex.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-rustix": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/bytecodealliance/rustix.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-serde": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/serde-rs/serde.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-sha1collisiondetection": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/sequoia-pgp/sha1collisiondetection.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-smallvec": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/servo/rust-smallvec.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-strsim-0.10": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/rapidfuzz/strsim-rs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-subtle": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dalek-cryptography/subtle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-terminal-size": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/eminence/terminal-size.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-thiserror": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dtolnay/thiserror.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-thiserror-1": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/dtolnay/thiserror.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-tinyvec": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Lokathor/tinyvec.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-tinyvec-macros": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/Soveu/tinyvec_macros.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-toml-0.5": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/toml-rs/toml.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-typenum": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/paholg/typenum.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-unicode-bidi": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/servo/unicode-bidi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-unicode-joining-type": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/yeslogic/unicode-joining-type.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-unicode-normalization": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/unicode-rs/unicode-normalization.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-utf8-iter": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/hsivonen/utf8_iter.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "rust-utf8parse": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "rust-xxhash-rust": {
+    "downstream": "https://salsa.debian.org/rust-team/debcargo-conf.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/DoumanAsh/xxhash-rust.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gcc-10-base": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gcc-9-base": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gpgv": {
+    "downstream": "https://salsa.debian.org/debian/gnupg2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/gnupg.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libapt-pkg6.0": {
+    "downstream": "https://salsa.debian.org/apt-team/apt.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libcom-err2": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libdb5.3": {
+    "downstream": "https://salsa.debian.org/debian/db5.3.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/berkeleydb/libdb.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libext2fs2": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libffi7": {
+    "downstream": "https://salsa.debian.org/toolchain-team/libffi.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "https://github.com/libffi/libffi.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libgnutls30": {
+    "downstream": "https://salsa.debian.org/gnutls-team/gnutls.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/gnutls/gnutls.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libgpg-error0": {
+    "downstream": "https://salsa.debian.org/debian/libgpg-error.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.gnupg.org/libgpg-error.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "libgssapi-krb5-2": {
+    "downstream": "https://salsa.debian.org/debian/krb5.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/krb5/krb5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libhogweed6": {
+    "downstream": "https://salsa.debian.org/holmgren/nettle.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.lysator.liu.se/nettle/nettle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libidn2-0": {
+    "downstream": "https://salsa.debian.org/debian/libidn2.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gitlab.com/libidn/libidn2.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libk5crypto3": {
+    "downstream": "https://salsa.debian.org/debian/krb5.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/krb5/krb5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libkeyutils1": {
+    "downstream": "https://salsa.debian.org/debian/keyutils.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libkrb5-3": {
+    "downstream": "https://salsa.debian.org/debian/krb5.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/krb5/krb5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libkrb5support0": {
+    "downstream": "https://salsa.debian.org/debian/krb5.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/krb5/krb5.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libnettle8": {
+    "downstream": "https://salsa.debian.org/holmgren/nettle.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.lysator.liu.se/nettle/nettle.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libnsl2": {
+    "downstream": "https://salsa.debian.org/glibc-team/libnsl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/thkukuk/libnsl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libp11-kit0": {
+    "downstream": "https://salsa.debian.org/gnutls-team/p11-kit.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/p11-glue/p11-kit.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsemanage1": {
+    "downstream": "https://salsa.debian.org/selinux-team/libsemanage.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libsepol1": {
+    "downstream": "https://salsa.debian.org/selinux-team/libsepol.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/SELinuxProject/selinux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libss2": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "manual",
+    "upstream": "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libssl1.1": {
+    "downstream": "https://salsa.debian.org/debian/openssl.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://github.com/openssl/openssl.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libtirpc-common": {
+    "downstream": "https://salsa.debian.org/debian/libtirpc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.linux-nfs.org/projects/steved/libtirpc.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libtirpc3": {
+    "downstream": "https://salsa.debian.org/debian/libtirpc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "git://git.linux-nfs.org/projects/steved/libtirpc.git",
+    "upstream_verified": true,
+    "upstream_source": "ai"
+  },
+  "libunistring2": {
+    "downstream": "https://salsa.debian.org/debian/libunistring.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.savannah.gnu.org/git/libunistring.git",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "lsb-base": {
+    "downstream": "https://salsa.debian.org/debian/lsb.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "gcc-12": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "gcc-12-base": {
+    "downstream": "https://salsa.debian.org/toolchain-team/gcc.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://gcc.gnu.org/git/gcc.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "usr-is-merged": {
+    "downstream": "https://salsa.debian.org/md/usrmerge.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "usrmerge": {
+    "downstream": "https://salsa.debian.org/md/usrmerge.git",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  },
+  "util-linux-extra": {
+    "downstream": "https://salsa.debian.org/debian/util-linux.git",
+    "downstream_verified": true,
+    "downstream_source": "scraping",
+    "upstream": "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+    "upstream_verified": true,
+    "upstream_source": "scraping"
+  },
+  "libpcre3": {
+    "downstream": "",
+    "downstream_verified": true,
+    "downstream_source": "ai",
+    "upstream": "",
+    "upstream_verified": true,
+    "upstream_source": "manual"
+  }
+}
