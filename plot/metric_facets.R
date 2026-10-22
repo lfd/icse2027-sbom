@@ -40,8 +40,7 @@ bins <- list(
     labels = c("0", "1", "2", "3-5", ">5")),
   newcomer_ratio = list(
     breaks = c(-1, 0, 0.25, 0.5, 0.75, 1 - 1e-9, Inf),
-    labels = c("0.00", "0.00-0.25", "0.25-0.50", "0.50-0.75", "0.75-1.00",
-               "1.00")),
+    labels = c("0%", "≤25%", "≤50%", "≤75%", "<100%", "100%")),
   loc = list(
     breaks = c(-1, 999, 9999, 49999, 99999, 499999, Inf),
     labels = c("<1k", "1k-10k", "10k-50k", "50k-100k", "100k-500k", ">500k")),
@@ -87,9 +86,9 @@ facet_counts <- function(windows, features) {
 facet_plot <- function(counts, nrow) {
   ggplot(counts, aes(x = bin, y = share, fill = release)) +
     geom_col(position = position_dodge(width = 0.75), width = 0.68) +
-    labs(x = NULL, y = "Share of time windows", fill = NULL) +
+    labs(x = NULL, y = "Time windows", fill = NULL) +
     scale_x_discrete(labels = function(x) sub(paste0("^.*", sep), "", x)) +
-    scale_y_continuous(labels = function(x) sprintf("%.2f", x),
+    scale_y_continuous(labels = scales::label_percent(),
                        expand = expansion(mult = c(0, 0.05))) +
     scale_fill_manual(values = release_colours(levels(counts$release))) +
     facet_wrap2(~ panel, scales = "free", nrow = nrow, dir = "v",

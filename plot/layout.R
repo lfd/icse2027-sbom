@@ -186,7 +186,8 @@ shrink_legend <- function(boxc=-5) {
 save_plot <- function(plot, name, width = TEXTWIDTH, height = 0.6 * TEXTWIDTH,
                       tikz = TRUE) {
   ggplot2::ggsave(file.path(OUTDIR_PDF, paste0(name, ".pdf")), plot = plot,
-                  width = width, height = height, units = "in")
+                  width = width, height = height, units = "in",
+                  device = grDevices::cairo_pdf)
 
   if (!tikz) {
     return(invisible(NULL))
@@ -199,14 +200,18 @@ save_plot <- function(plot, name, width = TEXTWIDTH, height = 0.6 * TEXTWIDTH,
 
   # Optimise the line width and encode special characters.
   previous <- options(tikzLwdUnit = 72.27 / 96,
-                      tikzSanitizeCharacters = c("<", ">"),
-                      tikzReplacementCharacters = c("$<$", "$>$"))
+                      tikzSanitizeCharacters = c("<", ">", "%", "≤"),
+                      tikzReplacementCharacters = c("$<$", "$>$", "\\%",
+                                                    "$\\leq$"))
   on.exit(options(previous), add = TRUE)
 
-  tikzDevice::tikz(file.path(OUTDIR_TIKZ, paste0(name, ".tex")),
-                   width = width, height = height, sanitize = TRUE)
+  tex_file <- file.path(OUTDIR_TIKZ, paste0(name, ".tex"))
+  tikzDevice::tikz(tex_file, width = width, height = height, sanitize = TRUE)
   print(plot)
   grDevices::dev.off()
+  tex <- readLines(tex_file)
+  writeLines(gsub("\xe2\x89\xa4", "{$\\leq$}", tex, fixed = TRUE,
+                  useBytes = TRUE), tex_file, useBytes = TRUE)
   invisible(NULL)
 }
 

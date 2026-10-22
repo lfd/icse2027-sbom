@@ -39,14 +39,26 @@ NODE.GAP <- 0.125
 # How far an arrow stops from the package it points at.
 ARROW.GAP <- 0.062
 
-# Two-column layout.
+# Two-column layout. The height follows from the content, see
+# figure_height().
 FIGURE.WIDTH <- TEXTWIDTH
 FIGURE.HEIGHT <- 0.35 * TEXTWIDTH
+# Width of the release graph, as a share of the figure width.
+GRAPH.PANEL <- 0.575
+# Vertical gaps in inches: below and above the step titles, between the
+# window frame and the panels, and the top bar of the window.
+GAPS <- c(bottom = 0.02, steps = 0.11, between = 0.05, frame = 0.05,
+          bar = 0.17, top = 0.005)
+# Line height and padding in points of the metrics box.
+BOX.LINE.HEIGHT <- 1.05
+BOX.PADDING <- 24
 
 # The annotated GraphML file based on which to draw the graph.
 GRAPH <- file.path("..", "data", "analysis", "debian-trixie-20250811",
                    "graph_annotated_attention-score-trixie.graphml")
 RELEASE <- "Trixie"
+# The website with the interactive graphs, linked in the figure.
+WEBSITE <- "lfd.github.io/icse2027-sbom.github.io"
 
 # Colour meanings, i.e. how much attention a reviewer should draw to the
 # respective package.
@@ -559,6 +571,130 @@ network_plot <- function(net, zoom = FALSE, highlight = NULL) {
   p
 }
 
+#' Draw a step title as in the method figure, with the number in a circle,
+#' followed by the title.
+#'
+#' @param number the number of the step.
+#' @param text the title.
+#' @param x the left edge on the canvas.
+#' @param y the bottom edge on the canvas.
+#' @return the layers to add to the canvas.
+#'
+step_title <- function(number, text, x, y) {
+  diameter <- 0.11
+  width <- diameter / FIGURE.WIDTH
+  height <- diameter / FIGURE.HEIGHT
+  list(
+    draw_grob(circleGrob(r = 0.5, gp = gpar(col = "black", fill = NA,
+                                            lwd = 0.6)),
+              x = x, y = y, width = width, height = height),
+    draw_label(number, x = x + width / 2, y = y + height / 2,
+               size = TINY.SIZE),
+    draw_label(text, x = x + width + 0.004, y = y + height / 2, hjust = 0,
+               size = SMALL.SIZE)
+  )
+}
+
+#' Draw a mouse pointer whose tip points at a position on the canvas.
+#'
+#' @param x the horizontal position of the tip.
+#' @param y the vertical position of the tip.
+#' @return the layer to add to the canvas.
+#'
+mouse_pointer <- function(x, y) {
+  size <- 0.11
+  outline <- polygonGrob(x = c(0, 0, 0.36, 0.6, 0.8, 0.56, 1),
+                         y = c(1, 0.22, 0.42, 0.04, 0.11, 0.48, 0.48),
+                         gp = gpar(col = "black", fill = "white", lwd = 0.6))
+  draw_grob(outline, x = x, y = y - size / FIGURE.HEIGHT,
+            width = 0.75 * size / FIGURE.WIDTH, height = size / FIGURE.HEIGHT)
+}
+
+#' Draw a browser window around the canvas, with a frame and a top bar with
+#' buttons and an address field.
+#'
+#' @param bar_height the height of the top bar on the canvas.
+#' @param bottom the bottom edge of the window on the canvas.
+#' @return the layers to add to the canvas.
+#'
+browser_window <- function(bar_height, bottom) {
+  inset <- 0.002
+  bar_y <- 1 - inset - bar_height
+  dot <- 0.055
+  dots <- lapply(0:2, function(i) {
+    draw_grob(circleGrob(r = 0.5, gp = gpar(col = "grey55", fill = "grey85",
+                                            lwd = 0.5)),
+              x = inset + 0.008 + i * 0.011,
+              y = bar_y + bar_height / 2 - dot / FIGURE.HEIGHT / 2,
+              width = dot / FIGURE.WIDTH, height = dot / FIGURE.HEIGHT)
+  })
+  field_x <- inset + 0.05
+  field_height <- 0.62 * bar_height
+  c(list(
+    draw_grob(roundrectGrob(r = unit(CORNER.RADIUS, "pt"),
+                            gp = gpar(col = "grey55", fill = NA, lwd = 0.6)),
+              x = inset, y = bottom, width = 1 - 2 * inset,
+              height = 1 - inset - bottom),
+    draw_line(x = c(inset, 1 - inset), y = c(bar_y, bar_y), colour = "grey55",
+              linewidth = 0.25),
+    draw_grob(roundrectGrob(r = unit(2, "pt"),
+                            gp = gpar(col = "grey70", fill = "white",
+                                      lwd = 0.5)),
+              x = field_x, y = bar_y + (bar_height - field_height) / 2,
+              width = 0.5, height = field_height),
+    draw_label(paste0("https://", WEBSITE, "/graphs/trixie-score.html"),
+               x = field_x + 0.008, y = bar_y + bar_height / 2, hjust = 0,
+               size = TINY.SIZE, colour = "grey30")
+  ), dots)
+}
+
+#' Draw an arrow from the end of a step title to the circle of the next step.
+#'
+#' @param text the title of the step.
+#' @param x the left edge of the step on the canvas.
+#' @param next_x the left edge of the next step on the canvas.
+#' @param y the bottom edge of the steps on the canvas.
+#' @return the layer to add to the canvas.
+#'
+step_arrow <- function(text, x, next_x, y) {
+  # Measure the title on a device which writes no file. Its Helvetica is
+  # wider than the Times of the paper.
+  grDevices::pdf(NULL)
+  on.exit(grDevices::dev.off())
+  text_width <- 0.85 * convertWidth(grobWidth(textGrob(text, gp = gpar(
+    fontsize = SMALL.SIZE))), "inches", valueOnly = TRUE)
+  start <- x + (0.11 + text_width) / FIGURE.WIDTH + 0.014
+  draw_line(x = c(start, next_x - 0.009),
+            y = rep(y + 0.11 / FIGURE.HEIGHT / 2, 2), colour = "black",
+            linewidth = LINE.SIZE.THIN,
+            arrow = arrow(length = unit(2.5, "pt"), type = "closed"))
+}
+
+#' Get the height of the metrics box, which fits its lines.
+#'
+#' @param entry the release as build_net() returned it.
+#' @param id the package the box describes.
+#' @return the height in inches.
+#'
+box_height <- function(entry, id) {
+  lines <- length(strsplit(annotation_text(entry, id), "\n")[[1]])
+  (lines * TINY.SIZE * BOX.LINE.HEIGHT + BOX.PADDING) / 72.27
+}
+
+#' Get the height of the figure, so that the browser window closes closely
+#' around the release graph and the metrics box, whichever is taller.
+#'
+#' @param entry the release as build_net() returned it.
+#' @param id the package the metrics box describes.
+#' @return the height in inches.
+#'
+figure_height <- function(entry, id) {
+  packages <- GRAPH.PANEL * FIGURE.WIDTH / max(entry$net$x) /
+    (1 + 2 * GRAPH.EXPAND)
+  max(packages, box_height(entry, id)) + 2 * GAPS[["frame"]] +
+    sum(GAPS[c("bottom", "steps", "between", "bar", "top")])
+}
+
 #' Draw the composed figure: the graph of the release, a rounded frame around
 #' the neighbourhood the zoom is taken from, and the box of metrics beside
 #' that.
@@ -585,49 +721,54 @@ example_figure <- function(entry, id) {
   detail <- network_plot(zoom_net(entry, id, ZOOM.ORDER), zoom = TRUE,
                          highlight = id) + bare
 
-  # Adjust canvas to keep space for the panel titles.
-  title_height <- 0.075
-  band <- list(y = 0.01, height = 0.985 - title_height)
+  # Arrange the canvas from the bottom: the step titles below the browser
+  # window, the band of panels inside its frame, and its top bar.
+  inch <- function(v) v / FIGURE.HEIGHT
+  bar_height <- inch(GAPS[["bar"]])
+  step_y <- inch(GAPS[["bottom"]])
+  window_y <- step_y + inch(GAPS[["steps"]] + GAPS[["between"]])
+  band <- list(y = window_y + inch(GAPS[["frame"]]))
+  band_top <- 1 - inch(GAPS[["top"]]) - bar_height - inch(GAPS[["frame"]])
+  band$height <- band_top - band$y
+  centre <- band$y + band$height / 2
   aspect <- max(entry$net$x)
+  padded <- 1 + 2 * GRAPH.EXPAND
 
   # Split the canvas into three panels, with a gap between them.
   gap <- 0.014
-  left <- list(x = 0.004, width = 0.575)
+  left <- list(x = 0.004, width = GRAPH.PANEL)
   middle <- list(width = 0.190)
   right <- list(width = 0.195)
   middle$x <- left$x + left$width + gap
   right$x <- middle$x + middle$width + gap
 
-  # Derive the height of the release graph.
-  left$height <- min(band$height,
-                     left$width / aspect * FIGURE.WIDTH / FIGURE.HEIGHT)
-  left$y <- band$y + band$height - left$height
+  # Centre the panels in the window. The release graph is padded, so its
+  # leftmost package, not its panel, marks the left edge of the content.
+  smallest <- GRAPH.SIZES[1] / 2 / 25.4 / FIGURE.WIDTH
+  content_left <- left$x + left$width * GRAPH.EXPAND / padded - smallest
+  shift <- (content_left + right$x + right$width) / 2 - 0.5
+  left$x <- left$x - shift
+  middle$x <- middle$x - shift
+  right$x <- right$x - shift
 
-  # Align the neighbourhood panel with the release graph, and keep it a bit
-  # smaller to show that it is a zoom.
-  band_top <- left$y + left$height
+  # Derive the height of the release graph from its width, and centre all
+  # panels in the band. The padding of the graph may reach beyond the band,
+  # as long as the packages themselves stay inside it. The neighbourhood
+  # panel is a bit smaller to show that it is a zoom, and the metrics box
+  # fits its lines.
+  left$height <- left$width / aspect * FIGURE.WIDTH / FIGURE.HEIGHT
+  left$y <- centre - left$height / 2
   middle$height <- left$height * 0.80
-  middle$y <- band_top - middle$height
-
-  # Fit the metrics box to its contents, without exceeding the height.
-  text_lines <- length(strsplit(annotation_text(entry, id), "\n")[[1]])
-  line_height <- 1.2
-  padding <- 30
-  right$height <- min(
-    band$height,
-    (text_lines * TINY.SIZE * line_height + padding) /
-      (FIGURE.HEIGHT * 72.27)
-  )
-  right$y <- band_top - right$height
+  middle$y <- centre - middle$height / 2
+  right$height <- inch(box_height(entry, id))
+  right$y <- centre - right$height / 2
 
   # Account for the corner radius of the rounded panels when drawing the lines
   # which tie the panels together.
   corner_r <- CORNER.RADIUS / (FIGURE.HEIGHT * 72.27)
   # Map a point in the release graph to the canvas as starting point of
-  # the lines to the neighbourhood panel.
-  padded <- 1 + 2 * GRAPH.EXPAND
-
-  # Scale layout coordinates to the panel.
+  # the lines to the neighbourhood panel. Scale layout coordinates to the
+  # panel.
   place_x <- function(v) {
     left$x + left$width * (v / aspect + GRAPH.EXPAND) / padded
   }
@@ -635,12 +776,16 @@ example_figure <- function(entry, id) {
     left$y + left$height * (v + GRAPH.EXPAND) / padded
   }
 
-  # Draw the release graph and its title.
+  titles <- c(paste(entry$release, "release graph"),
+              "Zoom into neighbourhood", "Click for package details")
+
+  # Draw the release graph, the step titles and the arrows between them.
   canvas <- ggdraw() +
     draw_plot(overview, x = left$x, y = left$y, width = left$width,
               height = left$height) +
-    draw_label(entry$release, x = left$x + left$width / 2,
-               y = left$y + left$height + 0.012, vjust = 0, size = SMALL.SIZE)
+    step_title("1", titles[1], 0.004, step_y) +
+    step_arrow(titles[1], 0.004, middle$x, step_y) +
+    step_arrow(titles[2], middle$x, right$x, step_y)
 
   # Draw the dashed line to the neighbourhood panel.
   for (corner in c(1, 0)) {
@@ -686,9 +831,7 @@ example_figure <- function(entry, id) {
                                       lwd = 0.8)),
               x = middle$x, y = middle$y, width = middle$width,
               height = middle$height) +
-    draw_label("Neighbourhood", x = middle$x + middle$width / 2,
-               y = middle$y + middle$height + 0.012, vjust = 0,
-               size = SMALL.SIZE) +
+    step_title("2", titles[2], middle$x, step_y) +
     # Metrics box frame, text and title.
     draw_grob(roundrectGrob(r = unit(CORNER.RADIUS, "pt"),
                             gp = gpar(col = "black", fill = "white",
@@ -697,16 +840,31 @@ example_figure <- function(entry, id) {
               height = right$height) +
     draw_label(annotation_text(entry, id), x = right$x + 0.012,
                y = right$y + right$height / 2, hjust = 0, vjust = 0.5,
-               size = TINY.SIZE, lineheight = 1.2) +
-    draw_label("Package", x = right$x + right$width / 2,
-               y = right$y + right$height + 0.012, vjust = 0,
-               size = SMALL.SIZE)
+               size = TINY.SIZE, lineheight = BOX.LINE.HEIGHT) +
+    step_title("3", titles[3], right$x, step_y) +
+    mouse_pointer(node_x + 0.003, node_y + 0.006) +
+    browser_window(bar_height, window_y)
 }
 
 # Create the graph layout.
 entry <- build_net(GRAPH, RELEASE)
 # Locate the package the annotation box describes.
 id <- annotated_package(entry)
-# Save the final figure.
+# Fit the height of the figure to its content, and save it.
+FIGURE.HEIGHT <- figure_height(entry, id)
 save_plot(example_figure(entry, id), "network_example",
           width = FIGURE.WIDTH, height = FIGURE.HEIGHT)
+# Make the website clickable in the LaTeX version of the figure.
+tex_file <- file.path(OUTDIR_TIKZ, "network_example.tex")
+# A link in scaled text is only partly clickable, so the label is set in the
+# font size it is scaled to instead.
+url <- paste0("https://", WEBSITE, "/graphs/trixie-score.html")
+tex <- readLines(tex_file)
+link <- grep(url, tex, fixed = TRUE)
+scale <- as.numeric(sub(".*scale= *([0-9.]+)\\].*", "\\1", tex[link]))
+tex[link] <- sub(", scale= *[0-9.]+\\]", "]", tex[link])
+tex[link] <- sub(") {", sprintf(") {\\fontsize{%.2f}{%.2f}\\selectfont ",
+                               10 * scale, 12 * scale), tex[link], fixed = TRUE)
+tex[link] <- sub(url, sprintf("\\href{%s}{%s}", url, url), tex[link],
+                 fixed = TRUE)
+writeLines(tex, tex_file)

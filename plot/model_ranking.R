@@ -115,7 +115,8 @@ p <- ggplot(curves, aes(x = reviewed, y = found, colour = order,
   scale_linewidth_manual(values = c(Rule = LINE.SIZE, Score = LINE.SIZE,
                                     Random = LINE.SIZE.THIN),
                          name = NULL) +
-  scale_y_continuous(limits = c(0, 1), expand = expansion(add = 0.02)) +
+  scale_y_continuous(limits = c(0, 1), labels = scales::label_percent(),
+                     expand = expansion(add = 0.02)) +
   scale_x_continuous(breaks = function(limits) {
                        packages <- floor(limits[2])
                        step <- if (packages < 80) 10 else 25
@@ -128,7 +129,7 @@ p <- ggplot(curves, aes(x = reviewed, y = found, colour = order,
                                 breaks %% 50 == 0, breaks, "")
                      },
                      expand = expansion(add = 0.5)) +
-  labs(x = "Packages reviewed", y = "Share of affected packages") +
+  labs(x = "Packages reviewed", y = "Affected packages") +
   theme_paper_base() +
   theme(axis.text = element_text(size = SMALL.SIZE),
         axis.title.x = element_text(size = SMALL.SIZE),

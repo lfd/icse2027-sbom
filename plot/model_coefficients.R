@@ -19,7 +19,7 @@ opt <- parse_args(OptionParser(option_list = list(
 )))
 
 fits <- c(multi = "Multivariate", uni = "Univariate")
-row_offsets <- setNames(c(0, -0.34), fits)
+row_offsets <- setNames(c(0, -0.3), fits)
 fit_colours <- setNames(COLOURS.LIST.DARK[c(1, 2)], fits)
 #' Label the given column or release names.
 #'
@@ -102,7 +102,7 @@ p <- ggplot(estimates, aes(x = coefficient, y = row, colour = fit)) +
   geom_point(aes(shape = pooled), size = BIG.POINT.SIZE * 2.6) +
   scale_y_continuous(breaks = seq_along(levels(coefficients$label)),
                      labels = levels(coefficients$label),
-                     expand = expansion(add = c(0.55, 0.45))) +
+                     expand = expansion(add = c(0.4, 0.35))) +
   scale_colour_manual(values = fit_colours, name = NULL) +
   scale_shape_manual(values = shapes, breaks = names(shapes), name = NULL) +
   guides(colour = guide_legend(order = 1, override.aes = list(shape = 18)),
@@ -125,4 +125,4 @@ p <- ggplot(estimates, aes(x = coefficient, y = row, colour = fit)) +
   shrink_legend()
 
 save_plot(p, paste0(inputs$name, "_coefficients"), width = COLWIDTH,
-          height = 0.2 * nrow(coefficients) + 0.85)
+          height = 0.19 * nrow(coefficients) + 0.75)
