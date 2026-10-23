@@ -1,0 +1,2165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d_name" for="node" attr.name="name" attr.type="string" />
+  <key id="d_version" for="node" attr.name="version" attr.type="string" />
+  <key id="d_purl" for="node" attr.name="purl" attr.type="string" />
+  <key id="d_purpose" for="node" attr.name="purpose" attr.type="string" />
+  <key id="d_arch" for="node" attr.name="arch" attr.type="string" />
+  <key id="d_reltype" for="edge" attr.name="reltype" attr.type="string" />
+  <graph id="sbom-Debian" edgedefault="directed">
+    <node id="Debian">
+      <data key="d_name">Debian</data>
+      <data key="d_version" />
+      <data key="d_purl" />
+      <data key="d_purpose">operating_system</data>
+      <data key="d_arch">unknown</data>
+    </node>
+    <node id="libaudit1-arm64">
+      <data key="d_name">libaudit1</data>
+      <data key="d_version">1:3.0-2</data>
+      <data key="d_purl">pkg:deb/debian/libaudit1@1:3.0-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="perl-base-arm64">
+      <data key="d_name">perl-base</data>
+      <data key="d_version">5.32.1-4+deb11u1</data>
+      <data key="d_purl">pkg:deb/debian/perl-base@5.32.1-4%2Bdeb11u1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libcom-err2-arm64">
+      <data key="d_name">libcom-err2</data>
+      <data key="d_version">1.46.2-2</data>
+      <data key="d_purl">pkg:deb/debian/libcom-err2@1.46.2-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libsemanage-common-all">
+      <data key="d_name">libsemanage-common</data>
+      <data key="d_version">3.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libsemanage-common@3.1-1?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="mawk-arm64">
+      <data key="d_name">mawk</data>
+      <data key="d_version">1.3.4.20200120-2</data>
+      <data key="d_purl">pkg:deb/debian/mawk@1.3.4.20200120-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libtasn1-6-4.16.0-2-srcpkg">
+      <data key="d_name">libtasn1-6</data>
+      <data key="d_version">4.16.0-2</data>
+      <data key="d_purl">pkg:deb/debian/libtasn1-6@4.16.0-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="liblz4-1-arm64">
+      <data key="d_name">liblz4-1</data>
+      <data key="d_version">1.9.3-2</data>
+      <data key="d_purl">pkg:deb/debian/liblz4-1@1.9.3-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="diffutils-1.3.7-5-srcpkg">
+      <data key="d_name">diffutils</data>
+      <data key="d_version">1:3.7-5</data>
+      <data key="d_purl">pkg:deb/debian/diffutils@1:3.7-5?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="pam-1.4.0-9-srcpkg">
+      <data key="d_name">pam</data>
+      <data key="d_version">1.4.0-9</data>
+      <data key="d_purl">pkg:deb/debian/pam@1.4.0-9?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libnettle8-arm64">
+      <data key="d_name">libnettle8</data>
+      <data key="d_version">3.7.3-1</data>
+      <data key="d_purl">pkg:deb/debian/libnettle8@3.7.3-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="e2fsprogs-1.46.2-2-srcpkg">
+      <data key="d_name">e2fsprogs</data>
+      <data key="d_version">1.46.2-2</data>
+      <data key="d_purl">pkg:deb/debian/e2fsprogs@1.46.2-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="perl-5.32.1-4.deb11u1-srcpkg">
+      <data key="d_name">perl</data>
+      <data key="d_version">5.32.1-4+deb11u1</data>
+      <data key="d_purl">pkg:deb/debian/perl@5.32.1-4%2Bdeb11u1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libpam-modules-arm64">
+      <data key="d_name">libpam-modules</data>
+      <data key="d_version">1.4.0-9</data>
+      <data key="d_purl">pkg:deb/debian/libpam-modules@1.4.0-9?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="dpkg-arm64">
+      <data key="d_name">dpkg</data>
+      <data key="d_version">1.20.9</data>
+      <data key="d_purl">pkg:deb/debian/dpkg@1.20.9?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libp11-kit0-arm64">
+      <data key="d_name">libp11-kit0</data>
+      <data key="d_version">0.23.22-1</data>
+      <data key="d_purl">pkg:deb/debian/libp11-kit0@0.23.22-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="findutils-4.8.0-1-srcpkg">
+      <data key="d_name">findutils</data>
+      <data key="d_version">4.8.0-1</data>
+      <data key="d_purl">pkg:deb/debian/findutils@4.8.0-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libssl1.1-arm64">
+      <data key="d_name">libssl1.1</data>
+      <data key="d_version">1.1.1k-1</data>
+      <data key="d_purl">pkg:deb/debian/libssl1.1@1.1.1k-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libpam-modules-bin-arm64">
+      <data key="d_name">libpam-modules-bin</data>
+      <data key="d_version">1.4.0-9</data>
+      <data key="d_purl">pkg:deb/debian/libpam-modules-bin@1.4.0-9?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="cdebconf-0.260-srcpkg">
+      <data key="d_name">cdebconf</data>
+      <data key="d_version">0.260</data>
+      <data key="d_purl">pkg:deb/debian/cdebconf@0.260?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libgpg-error-1.38-2-srcpkg">
+      <data key="d_name">libgpg-error</data>
+      <data key="d_version">1.38-2</data>
+      <data key="d_purl">pkg:deb/debian/libgpg-error@1.38-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libbz2-1.0-arm64">
+      <data key="d_name">libbz2-1.0</data>
+      <data key="d_version">1.0.8-4</data>
+      <data key="d_purl">pkg:deb/debian/libbz2-1.0@1.0.8-4?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libdb5.3-arm64">
+      <data key="d_name">libdb5.3</data>
+      <data key="d_version">5.3.28+dfsg1-0.8</data>
+      <data key="d_purl">pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg1-0.8?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libsemanage-3.1-1-srcpkg">
+      <data key="d_name">libsemanage</data>
+      <data key="d_version">3.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libsemanage@3.1-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="ncurses-bin-arm64">
+      <data key="d_name">ncurses-bin</data>
+      <data key="d_version">6.2+20201114-2</data>
+      <data key="d_purl">pkg:deb/debian/ncurses-bin@6.2%2B20201114-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libext2fs2-arm64">
+      <data key="d_name">libext2fs2</data>
+      <data key="d_version">1.46.2-2</data>
+      <data key="d_purl">pkg:deb/debian/libext2fs2@1.46.2-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libidn2-2.3.0-5-srcpkg">
+      <data key="d_name">libidn2</data>
+      <data key="d_version">2.3.0-5</data>
+      <data key="d_purl">pkg:deb/debian/libidn2@2.3.0-5?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libunistring-0.9.10-4-srcpkg">
+      <data key="d_name">libunistring</data>
+      <data key="d_version">0.9.10-4</data>
+      <data key="d_purl">pkg:deb/debian/libunistring@0.9.10-4?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="findutils-arm64">
+      <data key="d_name">findutils</data>
+      <data key="d_version">4.8.0-1</data>
+      <data key="d_purl">pkg:deb/debian/findutils@4.8.0-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="coreutils-8.32-4-srcpkg">
+      <data key="d_name">coreutils</data>
+      <data key="d_version">8.32-4</data>
+      <data key="d_purl">pkg:deb/debian/coreutils@8.32-4?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libidn2-0-arm64">
+      <data key="d_name">libidn2-0</data>
+      <data key="d_version">2.3.0-5</data>
+      <data key="d_purl">pkg:deb/debian/libidn2-0@2.3.0-5?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libxcrypt-1.4.4.18-4-srcpkg">
+      <data key="d_name">libxcrypt</data>
+      <data key="d_version">1:4.4.18-4</data>
+      <data key="d_purl">pkg:deb/debian/libxcrypt@1:4.4.18-4?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libsepol-3.1-1-srcpkg">
+      <data key="d_name">libsepol</data>
+      <data key="d_version">3.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libsepol@3.1-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="adduser-3.118-srcpkg">
+      <data key="d_name">adduser</data>
+      <data key="d_version">3.118</data>
+      <data key="d_purl">pkg:deb/debian/adduser@3.118?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="debianutils-4.11.2-srcpkg">
+      <data key="d_name">debianutils</data>
+      <data key="d_version">4.11.2</data>
+      <data key="d_purl">pkg:deb/debian/debianutils@4.11.2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libnsl-1.3.0-2-srcpkg">
+      <data key="d_name">libnsl</data>
+      <data key="d_version">1.3.0-2</data>
+      <data key="d_purl">pkg:deb/debian/libnsl@1.3.0-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libseccomp-2.5.1-1-srcpkg">
+      <data key="d_name">libseccomp</data>
+      <data key="d_version">2.5.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libseccomp@2.5.1-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="xz-utils-5.2.5-2-srcpkg">
+      <data key="d_name">xz-utils</data>
+      <data key="d_version">5.2.5-2</data>
+      <data key="d_purl">pkg:deb/debian/xz-utils@5.2.5-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="lsb-11.1.0-srcpkg">
+      <data key="d_name">lsb</data>
+      <data key="d_version">11.1.0</data>
+      <data key="d_purl">pkg:deb/debian/lsb@11.1.0?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="init-system-helpers-all">
+      <data key="d_name">init-system-helpers</data>
+      <data key="d_version">1.60</data>
+      <data key="d_purl">pkg:deb/debian/init-system-helpers@1.60?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="libgpg-error0-arm64">
+      <data key="d_name">libgpg-error0</data>
+      <data key="d_version">1.38-2</data>
+      <data key="d_purl">pkg:deb/debian/libgpg-error0@1.38-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libk5crypto3-arm64">
+      <data key="d_name">libk5crypto3</data>
+      <data key="d_version">1.18.3-6</data>
+      <data key="d_purl">pkg:deb/debian/libk5crypto3@1.18.3-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="openssl-1.1.1k-1-srcpkg">
+      <data key="d_name">openssl</data>
+      <data key="d_version">1.1.1k-1</data>
+      <data key="d_purl">pkg:deb/debian/openssl@1.1.1k-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="util-linux-arm64">
+      <data key="d_name">util-linux</data>
+      <data key="d_version">2.36.1-8</data>
+      <data key="d_purl">pkg:deb/debian/util-linux@2.36.1-8?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="systemd-247.3-6-srcpkg">
+      <data key="d_name">systemd</data>
+      <data key="d_version">247.3-6</data>
+      <data key="d_purl">pkg:deb/debian/systemd@247.3-6?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="debian-archive-keyring-2021.1.1-srcpkg">
+      <data key="d_name">debian-archive-keyring</data>
+      <data key="d_version">2021.1.1</data>
+      <data key="d_purl">pkg:deb/debian/debian-archive-keyring@2021.1.1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="base-files-arm64">
+      <data key="d_name">base-files</data>
+      <data key="d_version">11.1</data>
+      <data key="d_purl">pkg:deb/debian/base-files@11.1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="sed-4.7-1-srcpkg">
+      <data key="d_name">sed</data>
+      <data key="d_version">4.7-1</data>
+      <data key="d_purl">pkg:deb/debian/sed@4.7-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="dash-0.5.11.git20200708.dd9ef66-5-srcpkg">
+      <data key="d_name">dash</data>
+      <data key="d_version">0.5.11+git20200708+dd9ef66-5</data>
+      <data key="d_purl">pkg:deb/debian/dash@0.5.11%2Bgit20200708%2Bdd9ef66-5?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="db5.3-5.3.28.dfsg1-0.8-srcpkg">
+      <data key="d_name">db5.3</data>
+      <data key="d_version">5.3.28+dfsg1-0.8</data>
+      <data key="d_purl">pkg:deb/debian/db5.3@5.3.28%2Bdfsg1-0.8?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libhogweed6-arm64">
+      <data key="d_name">libhogweed6</data>
+      <data key="d_version">3.7.3-1</data>
+      <data key="d_purl">pkg:deb/debian/libhogweed6@3.7.3-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="nettle-3.7.3-1-srcpkg">
+      <data key="d_name">nettle</data>
+      <data key="d_version">3.7.3-1</data>
+      <data key="d_purl">pkg:deb/debian/nettle@3.7.3-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="apt-2.2.4-srcpkg">
+      <data key="d_name">apt</data>
+      <data key="d_version">2.2.4</data>
+      <data key="d_purl">pkg:deb/debian/apt@2.2.4?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="logsave-arm64">
+      <data key="d_name">logsave</data>
+      <data key="d_version">1.46.2-2</data>
+      <data key="d_purl">pkg:deb/debian/logsave@1.46.2-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libgcc-s1-arm64">
+      <data key="d_name">libgcc-s1</data>
+      <data key="d_version">10.2.1-6</data>
+      <data key="d_purl">pkg:deb/debian/libgcc-s1@10.2.1-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="pcre2-10.36-2-srcpkg">
+      <data key="d_name">pcre2</data>
+      <data key="d_version">10.36-2</data>
+      <data key="d_purl">pkg:deb/debian/pcre2@10.36-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libsmartcols1-arm64">
+      <data key="d_name">libsmartcols1</data>
+      <data key="d_version">2.36.1-8</data>
+      <data key="d_purl">pkg:deb/debian/libsmartcols1@2.36.1-8?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libtasn1-6-arm64">
+      <data key="d_name">libtasn1-6</data>
+      <data key="d_version">4.16.0-2</data>
+      <data key="d_purl">pkg:deb/debian/libtasn1-6@4.16.0-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="bzip2-1.0.8-4-srcpkg">
+      <data key="d_name">bzip2</data>
+      <data key="d_version">1.0.8-4</data>
+      <data key="d_purl">pkg:deb/debian/bzip2@1.0.8-4?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="mawk-1.3.4.20200120-2-srcpkg">
+      <data key="d_name">mawk</data>
+      <data key="d_version">1.3.4.20200120-2</data>
+      <data key="d_purl">pkg:deb/debian/mawk@1.3.4.20200120-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="gcc-9-base-arm64">
+      <data key="d_name">gcc-9-base</data>
+      <data key="d_version">9.3.0-22</data>
+      <data key="d_purl">pkg:deb/debian/gcc-9-base@9.3.0-22?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="ncurses-6.2.20201114-2-srcpkg">
+      <data key="d_name">ncurses</data>
+      <data key="d_version">6.2+20201114-2</data>
+      <data key="d_purl">pkg:deb/debian/ncurses@6.2%2B20201114-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="coreutils-arm64">
+      <data key="d_name">coreutils</data>
+      <data key="d_version">8.32-4</data>
+      <data key="d_purl">pkg:deb/debian/coreutils@8.32-4?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libsemanage1-arm64">
+      <data key="d_name">libsemanage1</data>
+      <data key="d_version">3.1-1+b2</data>
+      <data key="d_purl">pkg:deb/debian/libsemanage1@3.1-1%2Bb2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="attr-1.2.4.48-6-srcpkg">
+      <data key="d_name">attr</data>
+      <data key="d_version">1:2.4.48-6</data>
+      <data key="d_purl">pkg:deb/debian/attr@1:2.4.48-6?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="zlib1g-arm64">
+      <data key="d_name">zlib1g</data>
+      <data key="d_version">1:1.2.11.dfsg-2</data>
+      <data key="d_purl">pkg:deb/debian/zlib1g@1:1.2.11.dfsg-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="util-linux-2.36.1-8-srcpkg">
+      <data key="d_name">util-linux</data>
+      <data key="d_version">2.36.1-8</data>
+      <data key="d_purl">pkg:deb/debian/util-linux@2.36.1-8?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="gcc-10-10.2.1-6-srcpkg">
+      <data key="d_name">gcc-10</data>
+      <data key="d_version">10.2.1-6</data>
+      <data key="d_purl">pkg:deb/debian/gcc-10@10.2.1-6?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="gnutls28-3.7.1-5-srcpkg">
+      <data key="d_name">gnutls28</data>
+      <data key="d_version">3.7.1-5</data>
+      <data key="d_purl">pkg:deb/debian/gnutls28@3.7.1-5?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libc6-arm64">
+      <data key="d_name">libc6</data>
+      <data key="d_version">2.31-13</data>
+      <data key="d_purl">pkg:deb/debian/libc6@2.31-13?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="pcre3-2.8.39-13-srcpkg">
+      <data key="d_name">pcre3</data>
+      <data key="d_version">2:8.39-13</data>
+      <data key="d_purl">pkg:deb/debian/pcre3@2:8.39-13?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="gpgv-arm64">
+      <data key="d_name">gpgv</data>
+      <data key="d_version">2.2.27-2</data>
+      <data key="d_purl">pkg:deb/debian/gpgv@2.2.27-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="p11-kit-0.23.22-1-srcpkg">
+      <data key="d_name">p11-kit</data>
+      <data key="d_version">0.23.22-1</data>
+      <data key="d_purl">pkg:deb/debian/p11-kit@0.23.22-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libcap-ng0-arm64">
+      <data key="d_name">libcap-ng0</data>
+      <data key="d_version">0.7.9-2.2+b1</data>
+      <data key="d_purl">pkg:deb/debian/libcap-ng0@0.7.9-2.2%2Bb1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libudev1-arm64">
+      <data key="d_name">libudev1</data>
+      <data key="d_version">247.3-6</data>
+      <data key="d_purl">pkg:deb/debian/libudev1@247.3-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libacl1-arm64">
+      <data key="d_name">libacl1</data>
+      <data key="d_version">2.2.53-10</data>
+      <data key="d_purl">pkg:deb/debian/libacl1@2.2.53-10?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="base-files-11.1-srcpkg">
+      <data key="d_name">base-files</data>
+      <data key="d_version">11.1</data>
+      <data key="d_purl">pkg:deb/debian/base-files@11.1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="dash-arm64">
+      <data key="d_name">dash</data>
+      <data key="d_version">0.5.11+git20200708+dd9ef66-5</data>
+      <data key="d_purl">pkg:deb/debian/dash@0.5.11%2Bgit20200708%2Bdd9ef66-5?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libgcrypt20-1.8.7-6-srcpkg">
+      <data key="d_name">libgcrypt20</data>
+      <data key="d_version">1.8.7-6</data>
+      <data key="d_purl">pkg:deb/debian/libgcrypt20@1.8.7-6?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="liblzma5-arm64">
+      <data key="d_name">liblzma5</data>
+      <data key="d_version">5.2.5-2</data>
+      <data key="d_purl">pkg:deb/debian/liblzma5@5.2.5-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="lsb-base-all">
+      <data key="d_name">lsb-base</data>
+      <data key="d_version">11.1.0</data>
+      <data key="d_purl">pkg:deb/debian/lsb-base@11.1.0?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="libpcre3-arm64">
+      <data key="d_name">libpcre3</data>
+      <data key="d_version">2:8.39-13</data>
+      <data key="d_purl">pkg:deb/debian/libpcre3@2:8.39-13?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="debianutils-arm64">
+      <data key="d_name">debianutils</data>
+      <data key="d_version">4.11.2</data>
+      <data key="d_purl">pkg:deb/debian/debianutils@4.11.2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="dpkg-1.20.9-srcpkg">
+      <data key="d_name">dpkg</data>
+      <data key="d_version">1.20.9</data>
+      <data key="d_purl">pkg:deb/debian/dpkg@1.20.9?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="lz4-1.9.3-2-srcpkg">
+      <data key="d_name">lz4</data>
+      <data key="d_version">1.9.3-2</data>
+      <data key="d_purl">pkg:deb/debian/lz4@1.9.3-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libcrypt1-arm64">
+      <data key="d_name">libcrypt1</data>
+      <data key="d_version">1:4.4.18-4</data>
+      <data key="d_purl">pkg:deb/debian/libcrypt1@1:4.4.18-4?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="debconf-all">
+      <data key="d_name">debconf</data>
+      <data key="d_version">1.5.77</data>
+      <data key="d_purl">pkg:deb/debian/debconf@1.5.77?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="libmount1-arm64">
+      <data key="d_name">libmount1</data>
+      <data key="d_version">2.36.1-8</data>
+      <data key="d_purl">pkg:deb/debian/libmount1@2.36.1-8?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="bash-5.1-2-srcpkg">
+      <data key="d_name">bash</data>
+      <data key="d_version">5.1-2</data>
+      <data key="d_purl">pkg:deb/debian/bash@5.1-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libcap-ng-0.7.9-2.2-srcpkg">
+      <data key="d_name">libcap-ng</data>
+      <data key="d_version">0.7.9-2.2</data>
+      <data key="d_purl">pkg:deb/debian/libcap-ng@0.7.9-2.2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libapt-pkg6.0-arm64">
+      <data key="d_name">libapt-pkg6.0</data>
+      <data key="d_version">2.2.4</data>
+      <data key="d_purl">pkg:deb/debian/libapt-pkg6.0@2.2.4?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libc-bin-arm64">
+      <data key="d_name">libc-bin</data>
+      <data key="d_version">2.31-13</data>
+      <data key="d_purl">pkg:deb/debian/libc-bin@2.31-13?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="glibc-2.31-13-srcpkg">
+      <data key="d_name">glibc</data>
+      <data key="d_version">2.31-13</data>
+      <data key="d_purl">pkg:deb/debian/glibc@2.31-13?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libtirpc-1.3.1-1-srcpkg">
+      <data key="d_name">libtirpc</data>
+      <data key="d_version">1.3.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libtirpc@1.3.1-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libtinfo6-arm64">
+      <data key="d_name">libtinfo6</data>
+      <data key="d_version">6.2+20201114-2</data>
+      <data key="d_purl">pkg:deb/debian/libtinfo6@6.2%2B20201114-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="tzdata-2021a-1-srcpkg">
+      <data key="d_name">tzdata</data>
+      <data key="d_version">2021a-1</data>
+      <data key="d_purl">pkg:deb/debian/tzdata@2021a-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libaudit-common-all">
+      <data key="d_name">libaudit-common</data>
+      <data key="d_version">1:3.0-2</data>
+      <data key="d_purl">pkg:deb/debian/libaudit-common@1:3.0-2?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="bsdutils-arm64">
+      <data key="d_name">bsdutils</data>
+      <data key="d_version">1:2.36.1-8</data>
+      <data key="d_purl">pkg:deb/debian/bsdutils@1:2.36.1-8?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libgssapi-krb5-2-arm64">
+      <data key="d_name">libgssapi-krb5-2</data>
+      <data key="d_version">1.18.3-6</data>
+      <data key="d_purl">pkg:deb/debian/libgssapi-krb5-2@1.18.3-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="base-passwd-arm64">
+      <data key="d_name">base-passwd</data>
+      <data key="d_version">3.5.51</data>
+      <data key="d_purl">pkg:deb/debian/base-passwd@3.5.51?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libpam0g-arm64">
+      <data key="d_name">libpam0g</data>
+      <data key="d_version">1.4.0-9</data>
+      <data key="d_purl">pkg:deb/debian/libpam0g@1.4.0-9?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="tzdata-all">
+      <data key="d_name">tzdata</data>
+      <data key="d_version">2021a-1</data>
+      <data key="d_purl">pkg:deb/debian/tzdata@2021a-1?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="tar-1.34.dfsg-1-srcpkg">
+      <data key="d_name">tar</data>
+      <data key="d_version">1.34+dfsg-1</data>
+      <data key="d_purl">pkg:deb/debian/tar@1.34%2Bdfsg-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="diffutils-arm64">
+      <data key="d_name">diffutils</data>
+      <data key="d_version">1:3.7-5</data>
+      <data key="d_purl">pkg:deb/debian/diffutils@1:3.7-5?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="e2fsprogs-arm64">
+      <data key="d_name">e2fsprogs</data>
+      <data key="d_version">1.46.2-2</data>
+      <data key="d_purl">pkg:deb/debian/e2fsprogs@1.46.2-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libselinux-3.1-3-srcpkg">
+      <data key="d_name">libselinux</data>
+      <data key="d_version">3.1-3</data>
+      <data key="d_purl">pkg:deb/debian/libselinux@3.1-3?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libtirpc-common-all">
+      <data key="d_name">libtirpc-common</data>
+      <data key="d_version">1.3.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libtirpc-common@1.3.1-1?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="login-arm64">
+      <data key="d_name">login</data>
+      <data key="d_version">1:4.8.1-1</data>
+      <data key="d_purl">pkg:deb/debian/login@1:4.8.1-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libkrb5support0-arm64">
+      <data key="d_name">libkrb5support0</data>
+      <data key="d_version">1.18.3-6</data>
+      <data key="d_purl">pkg:deb/debian/libkrb5support0@1.18.3-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="krb5-1.18.3-6-srcpkg">
+      <data key="d_name">krb5</data>
+      <data key="d_version">1.18.3-6</data>
+      <data key="d_purl">pkg:deb/debian/krb5@1.18.3-6?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libzstd-1.4.8.dfsg-2.1-srcpkg">
+      <data key="d_name">libzstd</data>
+      <data key="d_version">1.4.8+dfsg-2.1</data>
+      <data key="d_purl">pkg:deb/debian/libzstd@1.4.8%2Bdfsg-2.1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="tar-arm64">
+      <data key="d_name">tar</data>
+      <data key="d_version">1.34+dfsg-1</data>
+      <data key="d_purl">pkg:deb/debian/tar@1.34%2Bdfsg-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="shadow-1.4.8.1-1-srcpkg">
+      <data key="d_name">shadow</data>
+      <data key="d_version">1:4.8.1-1</data>
+      <data key="d_purl">pkg:deb/debian/shadow@1:4.8.1-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="adduser-all">
+      <data key="d_name">adduser</data>
+      <data key="d_version">3.118</data>
+      <data key="d_purl">pkg:deb/debian/adduser@3.118?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="libgmp10-arm64">
+      <data key="d_name">libgmp10</data>
+      <data key="d_version">2:6.2.1+dfsg-1</data>
+      <data key="d_purl">pkg:deb/debian/libgmp10@2:6.2.1%2Bdfsg-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libgnutls30-arm64">
+      <data key="d_name">libgnutls30</data>
+      <data key="d_version">3.7.1-5</data>
+      <data key="d_purl">pkg:deb/debian/libgnutls30@3.7.1-5?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libgcrypt20-arm64">
+      <data key="d_name">libgcrypt20</data>
+      <data key="d_version">1.8.7-6</data>
+      <data key="d_purl">pkg:deb/debian/libgcrypt20@1.8.7-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="audit-1.3.0-2-srcpkg">
+      <data key="d_name">audit</data>
+      <data key="d_version">1:3.0-2</data>
+      <data key="d_purl">pkg:deb/debian/audit@1:3.0-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="hostname-3.23-srcpkg">
+      <data key="d_name">hostname</data>
+      <data key="d_version">3.23</data>
+      <data key="d_purl">pkg:deb/debian/hostname@3.23?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="keyutils-1.6.1-2-srcpkg">
+      <data key="d_name">keyutils</data>
+      <data key="d_version">1.6.1-2</data>
+      <data key="d_purl">pkg:deb/debian/keyutils@1.6.1-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="hostname-arm64">
+      <data key="d_name">hostname</data>
+      <data key="d_version">3.23</data>
+      <data key="d_purl">pkg:deb/debian/hostname@3.23?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libtirpc3-arm64">
+      <data key="d_name">libtirpc3</data>
+      <data key="d_version">1.3.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libtirpc3@1.3.1-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="gnupg2-2.2.27-2-srcpkg">
+      <data key="d_name">gnupg2</data>
+      <data key="d_version">2.2.27-2</data>
+      <data key="d_purl">pkg:deb/debian/gnupg2@2.2.27-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="gcc-9-9.3.0-22-srcpkg">
+      <data key="d_name">gcc-9</data>
+      <data key="d_version">9.3.0-22</data>
+      <data key="d_purl">pkg:deb/debian/gcc-9@9.3.0-22?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="gzip-arm64">
+      <data key="d_name">gzip</data>
+      <data key="d_version">1.10-4</data>
+      <data key="d_purl">pkg:deb/debian/gzip@1.10-4?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="sysvinit-2.96-7-srcpkg">
+      <data key="d_name">sysvinit</data>
+      <data key="d_version">2.96-7</data>
+      <data key="d_purl">pkg:deb/debian/sysvinit@2.96-7?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="gzip-1.10-4-srcpkg">
+      <data key="d_name">gzip</data>
+      <data key="d_version">1.10-4</data>
+      <data key="d_purl">pkg:deb/debian/gzip@1.10-4?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libblkid1-arm64">
+      <data key="d_name">libblkid1</data>
+      <data key="d_version">2.36.1-8</data>
+      <data key="d_purl">pkg:deb/debian/libblkid1@2.36.1-8?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libunistring2-arm64">
+      <data key="d_name">libunistring2</data>
+      <data key="d_version">0.9.10-4</data>
+      <data key="d_purl">pkg:deb/debian/libunistring2@0.9.10-4?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="gmp-2.6.2.1.dfsg-1-srcpkg">
+      <data key="d_name">gmp</data>
+      <data key="d_version">2:6.2.1+dfsg-1</data>
+      <data key="d_purl">pkg:deb/debian/gmp@2:6.2.1%2Bdfsg-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="init-system-helpers-1.60-srcpkg">
+      <data key="d_name">init-system-helpers</data>
+      <data key="d_version">1.60</data>
+      <data key="d_purl">pkg:deb/debian/init-system-helpers@1.60?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libpam-runtime-all">
+      <data key="d_name">libpam-runtime</data>
+      <data key="d_version">1.4.0-9</data>
+      <data key="d_purl">pkg:deb/debian/libpam-runtime@1.4.0-9?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="libstdc.6-arm64">
+      <data key="d_name">libstdc++6</data>
+      <data key="d_version">10.2.1-6</data>
+      <data key="d_purl">pkg:deb/debian/libstdc%2B%2B6@10.2.1-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="grep-arm64">
+      <data key="d_name">grep</data>
+      <data key="d_version">3.6-1</data>
+      <data key="d_purl">pkg:deb/debian/grep@3.6-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="sed-arm64">
+      <data key="d_name">sed</data>
+      <data key="d_version">4.7-1</data>
+      <data key="d_purl">pkg:deb/debian/sed@4.7-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libffi-3.3-6-srcpkg">
+      <data key="d_name">libffi</data>
+      <data key="d_version">3.3-6</data>
+      <data key="d_purl">pkg:deb/debian/libffi@3.3-6?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libpcre2-8-0-arm64">
+      <data key="d_name">libpcre2-8-0</data>
+      <data key="d_version">10.36-2</data>
+      <data key="d_purl">pkg:deb/debian/libpcre2-8-0@10.36-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="base-passwd-3.5.51-srcpkg">
+      <data key="d_name">base-passwd</data>
+      <data key="d_version">3.5.51</data>
+      <data key="d_purl">pkg:deb/debian/base-passwd@3.5.51?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libnsl2-arm64">
+      <data key="d_name">libnsl2</data>
+      <data key="d_version">1.3.0-2</data>
+      <data key="d_purl">pkg:deb/debian/libnsl2@1.3.0-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="passwd-arm64">
+      <data key="d_name">passwd</data>
+      <data key="d_version">1:4.8.1-1</data>
+      <data key="d_purl">pkg:deb/debian/passwd@1:4.8.1-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libsepol1-arm64">
+      <data key="d_name">libsepol1</data>
+      <data key="d_version">3.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libsepol1@3.1-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="apt-arm64">
+      <data key="d_name">apt</data>
+      <data key="d_version">2.2.4</data>
+      <data key="d_purl">pkg:deb/debian/apt@2.2.4?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="debian-archive-keyring-all">
+      <data key="d_name">debian-archive-keyring</data>
+      <data key="d_version">2021.1.1</data>
+      <data key="d_purl">pkg:deb/debian/debian-archive-keyring@2021.1.1?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="libss2-arm64">
+      <data key="d_name">libss2</data>
+      <data key="d_version">1.46.2-2</data>
+      <data key="d_purl">pkg:deb/debian/libss2@1.46.2-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libzstd1-arm64">
+      <data key="d_name">libzstd1</data>
+      <data key="d_version">1.4.8+dfsg-2.1</data>
+      <data key="d_purl">pkg:deb/debian/libzstd1@1.4.8%2Bdfsg-2.1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="bash-arm64">
+      <data key="d_name">bash</data>
+      <data key="d_version">5.1-2+b3</data>
+      <data key="d_purl">pkg:deb/debian/bash@5.1-2%2Bb3?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libselinux1-arm64">
+      <data key="d_name">libselinux1</data>
+      <data key="d_version">3.1-3</data>
+      <data key="d_purl">pkg:deb/debian/libselinux1@3.1-3?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="zlib-1.1.2.11.dfsg-2-srcpkg">
+      <data key="d_name">zlib</data>
+      <data key="d_version">1:1.2.11.dfsg-2</data>
+      <data key="d_purl">pkg:deb/debian/zlib@1:1.2.11.dfsg-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="grep-3.6-1-srcpkg">
+      <data key="d_name">grep</data>
+      <data key="d_version">3.6-1</data>
+      <data key="d_purl">pkg:deb/debian/grep@3.6-1?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libsystemd0-arm64">
+      <data key="d_name">libsystemd0</data>
+      <data key="d_version">247.3-6</data>
+      <data key="d_purl">pkg:deb/debian/libsystemd0@247.3-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libxxhash0-arm64">
+      <data key="d_name">libxxhash0</data>
+      <data key="d_version">0.8.0-2</data>
+      <data key="d_purl">pkg:deb/debian/libxxhash0@0.8.0-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="ncurses-base-all">
+      <data key="d_name">ncurses-base</data>
+      <data key="d_version">6.2+20201114-2</data>
+      <data key="d_purl">pkg:deb/debian/ncurses-base@6.2%2B20201114-2?arch=all</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">all</data>
+    </node>
+    <node id="xxhash-0.8.0-2-srcpkg">
+      <data key="d_name">xxhash</data>
+      <data key="d_version">0.8.0-2</data>
+      <data key="d_purl">pkg:deb/debian/xxhash@0.8.0-2?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="sysvinit-utils-arm64">
+      <data key="d_name">sysvinit-utils</data>
+      <data key="d_version">2.96-7</data>
+      <data key="d_purl">pkg:deb/debian/sysvinit-utils@2.96-7?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libattr1-arm64">
+      <data key="d_name">libattr1</data>
+      <data key="d_version">1:2.4.48-6</data>
+      <data key="d_purl">pkg:deb/debian/libattr1@1:2.4.48-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libkeyutils1-arm64">
+      <data key="d_name">libkeyutils1</data>
+      <data key="d_version">1.6.1-2</data>
+      <data key="d_purl">pkg:deb/debian/libkeyutils1@1.6.1-2?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libuuid1-arm64">
+      <data key="d_name">libuuid1</data>
+      <data key="d_version">2.36.1-8</data>
+      <data key="d_purl">pkg:deb/debian/libuuid1@2.36.1-8?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="debconf-1.5.77-srcpkg">
+      <data key="d_name">debconf</data>
+      <data key="d_version">1.5.77</data>
+      <data key="d_purl">pkg:deb/debian/debconf@1.5.77?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libkrb5-3-arm64">
+      <data key="d_name">libkrb5-3</data>
+      <data key="d_version">1.18.3-6</data>
+      <data key="d_purl">pkg:deb/debian/libkrb5-3@1.18.3-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libdebconfclient0-arm64">
+      <data key="d_name">libdebconfclient0</data>
+      <data key="d_version">0.260</data>
+      <data key="d_purl">pkg:deb/debian/libdebconfclient0@0.260?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="acl-2.2.53-10-srcpkg">
+      <data key="d_name">acl</data>
+      <data key="d_version">2.2.53-10</data>
+      <data key="d_purl">pkg:deb/debian/acl@2.2.53-10?arch=source</data>
+      <data key="d_purpose">source</data>
+      <data key="d_arch">source</data>
+    </node>
+    <node id="libseccomp2-arm64">
+      <data key="d_name">libseccomp2</data>
+      <data key="d_version">2.5.1-1</data>
+      <data key="d_purl">pkg:deb/debian/libseccomp2@2.5.1-1?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="mount-arm64">
+      <data key="d_name">mount</data>
+      <data key="d_version">2.36.1-8</data>
+      <data key="d_purl">pkg:deb/debian/mount@2.36.1-8?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="gcc-10-base-arm64">
+      <data key="d_name">gcc-10-base</data>
+      <data key="d_version">10.2.1-6</data>
+      <data key="d_purl">pkg:deb/debian/gcc-10-base@10.2.1-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <node id="libffi7-arm64">
+      <data key="d_name">libffi7</data>
+      <data key="d_version">3.3-6</data>
+      <data key="d_purl">pkg:deb/debian/libffi7@3.3-6?arch=arm64</data>
+      <data key="d_purpose">library</data>
+      <data key="d_arch">arm64</data>
+    </node>
+    <edge source="libaudit1-arm64" target="libaudit-common-all" id="libaudit1-arm64--libaudit-common-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libaudit1-arm64" target="libc6-arm64" id="libaudit1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libaudit1-arm64" target="libcap-ng0-arm64" id="libaudit1-arm64--libcap-ng0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="audit-1.3.0-2-srcpkg" target="libaudit1-arm64" id="audit-1.3.0-2-srcpkg--libaudit1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="perl-base-arm64" target="Debian" id="perl-base-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="perl-5.32.1-4.deb11u1-srcpkg" target="perl-base-arm64" id="perl-5.32.1-4.deb11u1-srcpkg--perl-base-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libcom-err2-arm64" target="libc6-arm64" id="libcom-err2-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-1.46.2-2-srcpkg" target="libcom-err2-arm64" id="e2fsprogs-1.46.2-2-srcpkg--libcom-err2-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libsemanage-3.1-1-srcpkg" target="libsemanage-common-all" id="libsemanage-3.1-1-srcpkg--libsemanage-common-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="mawk-arm64" target="Debian" id="mawk-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="mawk-arm64" target="libc6-arm64" id="mawk-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="mawk-1.3.4.20200120-2-srcpkg" target="mawk-arm64" id="mawk-1.3.4.20200120-2-srcpkg--mawk-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="liblz4-1-arm64" target="libc6-arm64" id="liblz4-1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="lz4-1.9.3-2-srcpkg" target="liblz4-1-arm64" id="lz4-1.9.3-2-srcpkg--liblz4-1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libnettle8-arm64" target="libc6-arm64" id="libnettle8-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="nettle-3.7.3-1-srcpkg" target="libnettle8-arm64" id="nettle-3.7.3-1-srcpkg--libnettle8-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libpam-modules-arm64" target="Debian" id="libpam-modules-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="pam-1.4.0-9-srcpkg" target="libpam-modules-arm64" id="pam-1.4.0-9-srcpkg--libpam-modules-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="dpkg-arm64" target="Debian" id="dpkg-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="dpkg-arm64" target="tar-arm64" id="dpkg-arm64--tar-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dpkg-arm64" target="libbz2-1.0-arm64" id="dpkg-arm64--libbz2-1.0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dpkg-arm64" target="libc6-arm64" id="dpkg-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dpkg-arm64" target="liblzma5-arm64" id="dpkg-arm64--liblzma5-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dpkg-arm64" target="libselinux1-arm64" id="dpkg-arm64--libselinux1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dpkg-arm64" target="zlib1g-arm64" id="dpkg-arm64--zlib1g-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dpkg-1.20.9-srcpkg" target="dpkg-arm64" id="dpkg-1.20.9-srcpkg--dpkg-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libp11-kit0-arm64" target="libc6-arm64" id="libp11-kit0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libp11-kit0-arm64" target="libffi7-arm64" id="libp11-kit0-arm64--libffi7-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="p11-kit-0.23.22-1-srcpkg" target="libp11-kit0-arm64" id="p11-kit-0.23.22-1-srcpkg--libp11-kit0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libssl1.1-arm64" target="libc6-arm64" id="libssl1.1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libssl1.1-arm64" target="debconf-all" id="libssl1.1-arm64--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libssl1.1-arm64" target="debconf-all" id="libssl1.1-arm64--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="openssl-1.1.1k-1-srcpkg" target="libssl1.1-arm64" id="openssl-1.1.1k-1-srcpkg--libssl1.1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libpam-modules-bin-arm64" target="Debian" id="libpam-modules-bin-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="libpam-modules-bin-arm64" target="libaudit1-arm64" id="libpam-modules-bin-arm64--libaudit1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam-modules-bin-arm64" target="libc6-arm64" id="libpam-modules-bin-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam-modules-bin-arm64" target="libcrypt1-arm64" id="libpam-modules-bin-arm64--libcrypt1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam-modules-bin-arm64" target="libpam0g-arm64" id="libpam-modules-bin-arm64--libpam0g-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam-modules-bin-arm64" target="libselinux1-arm64" id="libpam-modules-bin-arm64--libselinux1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="pam-1.4.0-9-srcpkg" target="libpam-modules-bin-arm64" id="pam-1.4.0-9-srcpkg--libpam-modules-bin-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libbz2-1.0-arm64" target="libc6-arm64" id="libbz2-1.0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="bzip2-1.0.8-4-srcpkg" target="libbz2-1.0-arm64" id="bzip2-1.0.8-4-srcpkg--libbz2-1.0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libdb5.3-arm64" target="libc6-arm64" id="libdb5.3-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="db5.3-5.3.28.dfsg1-0.8-srcpkg" target="libdb5.3-arm64" id="db5.3-5.3.28.dfsg1-0.8-srcpkg--libdb5.3-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="ncurses-bin-arm64" target="Debian" id="ncurses-bin-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="ncurses-6.2.20201114-2-srcpkg" target="ncurses-bin-arm64" id="ncurses-6.2.20201114-2-srcpkg--ncurses-bin-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libext2fs2-arm64" target="libc6-arm64" id="libext2fs2-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-1.46.2-2-srcpkg" target="libext2fs2-arm64" id="e2fsprogs-1.46.2-2-srcpkg--libext2fs2-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="findutils-arm64" target="Debian" id="findutils-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="findutils-4.8.0-1-srcpkg" target="findutils-arm64" id="findutils-4.8.0-1-srcpkg--findutils-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libidn2-0-arm64" target="libc6-arm64" id="libidn2-0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libidn2-0-arm64" target="libunistring2-arm64" id="libidn2-0-arm64--libunistring2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libidn2-2.3.0-5-srcpkg" target="libidn2-0-arm64" id="libidn2-2.3.0-5-srcpkg--libidn2-0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="init-system-helpers-all" target="Debian" id="init-system-helpers-all--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="init-system-helpers-all" target="perl-base-arm64" id="init-system-helpers-all--perl-base-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="init-system-helpers-1.60-srcpkg" target="init-system-helpers-all" id="init-system-helpers-1.60-srcpkg--init-system-helpers-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libgpg-error0-arm64" target="libc6-arm64" id="libgpg-error0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgpg-error-1.38-2-srcpkg" target="libgpg-error0-arm64" id="libgpg-error-1.38-2-srcpkg--libgpg-error0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libk5crypto3-arm64" target="libc6-arm64" id="libk5crypto3-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libk5crypto3-arm64" target="libkrb5support0-arm64" id="libk5crypto3-arm64--libkrb5support0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="krb5-1.18.3-6-srcpkg" target="libk5crypto3-arm64" id="krb5-1.18.3-6-srcpkg--libk5crypto3-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="util-linux-arm64" target="Debian" id="util-linux-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="util-linux-arm64" target="login-arm64" id="util-linux-arm64--login-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libaudit1-arm64" id="util-linux-arm64--libaudit1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libblkid1-arm64" id="util-linux-arm64--libblkid1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libc6-arm64" id="util-linux-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libcap-ng0-arm64" id="util-linux-arm64--libcap-ng0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libcrypt1-arm64" id="util-linux-arm64--libcrypt1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libmount1-arm64" id="util-linux-arm64--libmount1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libpam0g-arm64" id="util-linux-arm64--libpam0g-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libselinux1-arm64" id="util-linux-arm64--libselinux1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libsmartcols1-arm64" id="util-linux-arm64--libsmartcols1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libsystemd0-arm64" id="util-linux-arm64--libsystemd0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libtinfo6-arm64" id="util-linux-arm64--libtinfo6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libudev1-arm64" id="util-linux-arm64--libudev1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="libuuid1-arm64" id="util-linux-arm64--libuuid1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-arm64" target="zlib1g-arm64" id="util-linux-arm64--zlib1g-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-2.36.1-8-srcpkg" target="util-linux-arm64" id="util-linux-2.36.1-8-srcpkg--util-linux-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="base-files-arm64" target="Debian" id="base-files-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="base-files-11.1-srcpkg" target="base-files-arm64" id="base-files-11.1-srcpkg--base-files-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libhogweed6-arm64" target="libc6-arm64" id="libhogweed6-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libhogweed6-arm64" target="libgmp10-arm64" id="libhogweed6-arm64--libgmp10-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libhogweed6-arm64" target="libnettle8-arm64" id="libhogweed6-arm64--libnettle8-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="nettle-3.7.3-1-srcpkg" target="libhogweed6-arm64" id="nettle-3.7.3-1-srcpkg--libhogweed6-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="logsave-arm64" target="libc6-arm64" id="logsave-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-1.46.2-2-srcpkg" target="logsave-arm64" id="e2fsprogs-1.46.2-2-srcpkg--logsave-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libgcc-s1-arm64" target="gcc-10-base-arm64" id="libgcc-s1-arm64--gcc-10-base-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgcc-s1-arm64" target="libc6-arm64" id="libgcc-s1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gcc-10-10.2.1-6-srcpkg" target="libgcc-s1-arm64" id="gcc-10-10.2.1-6-srcpkg--libgcc-s1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libsmartcols1-arm64" target="libc6-arm64" id="libsmartcols1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-2.36.1-8-srcpkg" target="libsmartcols1-arm64" id="util-linux-2.36.1-8-srcpkg--libsmartcols1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libtasn1-6-arm64" target="libc6-arm64" id="libtasn1-6-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libtasn1-6-4.16.0-2-srcpkg" target="libtasn1-6-arm64" id="libtasn1-6-4.16.0-2-srcpkg--libtasn1-6-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="gcc-9-base-arm64" target="Debian" id="gcc-9-base-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="gcc-9-9.3.0-22-srcpkg" target="gcc-9-base-arm64" id="gcc-9-9.3.0-22-srcpkg--gcc-9-base-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="coreutils-arm64" target="Debian" id="coreutils-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="coreutils-8.32-4-srcpkg" target="coreutils-arm64" id="coreutils-8.32-4-srcpkg--coreutils-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libsemanage1-arm64" target="libsemanage-common-all" id="libsemanage1-arm64--libsemanage-common-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libsemanage1-arm64" target="libaudit1-arm64" id="libsemanage1-arm64--libaudit1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libsemanage1-arm64" target="libbz2-1.0-arm64" id="libsemanage1-arm64--libbz2-1.0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libsemanage1-arm64" target="libc6-arm64" id="libsemanage1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libsemanage1-arm64" target="libselinux1-arm64" id="libsemanage1-arm64--libselinux1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libsemanage1-arm64" target="libsepol1-arm64" id="libsemanage1-arm64--libsepol1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libsemanage-3.1-1-srcpkg" target="libsemanage1-arm64" id="libsemanage-3.1-1-srcpkg--libsemanage1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="zlib1g-arm64" target="libc6-arm64" id="zlib1g-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="zlib-1.1.2.11.dfsg-2-srcpkg" target="zlib1g-arm64" id="zlib-1.1.2.11.dfsg-2-srcpkg--zlib1g-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libc6-arm64" target="libgcc-s1-arm64" id="libc6-arm64--libgcc-s1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libc6-arm64" target="libcrypt1-arm64" id="libc6-arm64--libcrypt1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libc6-arm64" target="libidn2-0-arm64" id="libc6-arm64--libidn2-0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="glibc-2.31-13-srcpkg" target="libc6-arm64" id="glibc-2.31-13-srcpkg--libc6-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="gpgv-arm64" target="libbz2-1.0-arm64" id="gpgv-arm64--libbz2-1.0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gpgv-arm64" target="libc6-arm64" id="gpgv-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gpgv-arm64" target="libgcrypt20-arm64" id="gpgv-arm64--libgcrypt20-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gpgv-arm64" target="libgpg-error0-arm64" id="gpgv-arm64--libgpg-error0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gpgv-arm64" target="zlib1g-arm64" id="gpgv-arm64--zlib1g-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gnupg2-2.2.27-2-srcpkg" target="gpgv-arm64" id="gnupg2-2.2.27-2-srcpkg--gpgv-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libcap-ng0-arm64" target="libc6-arm64" id="libcap-ng0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libcap-ng-0.7.9-2.2-srcpkg" target="libcap-ng0-arm64" id="libcap-ng-0.7.9-2.2-srcpkg--libcap-ng0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libudev1-arm64" target="libc6-arm64" id="libudev1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="systemd-247.3-6-srcpkg" target="libudev1-arm64" id="systemd-247.3-6-srcpkg--libudev1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libacl1-arm64" target="libc6-arm64" id="libacl1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="acl-2.2.53-10-srcpkg" target="libacl1-arm64" id="acl-2.2.53-10-srcpkg--libacl1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="dash-arm64" target="Debian" id="dash-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="dash-arm64" target="debianutils-arm64" id="dash-arm64--debianutils-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dash-arm64" target="dpkg-arm64" id="dash-arm64--dpkg-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dash-arm64" target="debconf-all" id="dash-arm64--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dash-arm64" target="debconf-all" id="dash-arm64--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dash-arm64" target="libc6-arm64" id="dash-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="dash-0.5.11.git20200708.dd9ef66-5-srcpkg" target="dash-arm64" id="dash-0.5.11.git20200708.dd9ef66-5-srcpkg--dash-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="liblzma5-arm64" target="libc6-arm64" id="liblzma5-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="xz-utils-5.2.5-2-srcpkg" target="liblzma5-arm64" id="xz-utils-5.2.5-2-srcpkg--liblzma5-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="lsb-11.1.0-srcpkg" target="lsb-base-all" id="lsb-11.1.0-srcpkg--lsb-base-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libpcre3-arm64" target="libc6-arm64" id="libpcre3-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="pcre3-2.8.39-13-srcpkg" target="libpcre3-arm64" id="pcre3-2.8.39-13-srcpkg--libpcre3-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="debianutils-arm64" target="Debian" id="debianutils-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="debianutils-4.11.2-srcpkg" target="debianutils-arm64" id="debianutils-4.11.2-srcpkg--debianutils-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libcrypt1-arm64" target="libc6-arm64" id="libcrypt1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libxcrypt-1.4.4.18-4-srcpkg" target="libcrypt1-arm64" id="libxcrypt-1.4.4.18-4-srcpkg--libcrypt1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="debconf-all" target="Debian" id="debconf-all--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="debconf-1.5.77-srcpkg" target="debconf-all" id="debconf-1.5.77-srcpkg--debconf-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libmount1-arm64" target="libblkid1-arm64" id="libmount1-arm64--libblkid1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libmount1-arm64" target="libc6-arm64" id="libmount1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libmount1-arm64" target="libselinux1-arm64" id="libmount1-arm64--libselinux1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-2.36.1-8-srcpkg" target="libmount1-arm64" id="util-linux-2.36.1-8-srcpkg--libmount1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libbz2-1.0-arm64" id="libapt-pkg6.0-arm64--libbz2-1.0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libc6-arm64" id="libapt-pkg6.0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libgcc-s1-arm64" id="libapt-pkg6.0-arm64--libgcc-s1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libgcrypt20-arm64" id="libapt-pkg6.0-arm64--libgcrypt20-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="liblz4-1-arm64" id="libapt-pkg6.0-arm64--liblz4-1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="liblzma5-arm64" id="libapt-pkg6.0-arm64--liblzma5-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libstdc.6-arm64" id="libapt-pkg6.0-arm64--libstdc.6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libsystemd0-arm64" id="libapt-pkg6.0-arm64--libsystemd0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libudev1-arm64" id="libapt-pkg6.0-arm64--libudev1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libxxhash0-arm64" id="libapt-pkg6.0-arm64--libxxhash0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="libzstd1-arm64" id="libapt-pkg6.0-arm64--libzstd1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="zlib1g-arm64" id="libapt-pkg6.0-arm64--zlib1g-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libapt-pkg6.0-arm64" target="apt-arm64" id="libapt-pkg6.0-arm64--apt-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-2.2.4-srcpkg" target="libapt-pkg6.0-arm64" id="apt-2.2.4-srcpkg--libapt-pkg6.0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libc-bin-arm64" target="Debian" id="libc-bin-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="libc-bin-arm64" target="libc6-arm64" id="libc-bin-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="glibc-2.31-13-srcpkg" target="libc-bin-arm64" id="glibc-2.31-13-srcpkg--libc-bin-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libtinfo6-arm64" target="libc6-arm64" id="libtinfo6-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="ncurses-6.2.20201114-2-srcpkg" target="libtinfo6-arm64" id="ncurses-6.2.20201114-2-srcpkg--libtinfo6-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="audit-1.3.0-2-srcpkg" target="libaudit-common-all" id="audit-1.3.0-2-srcpkg--libaudit-common-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="bsdutils-arm64" target="Debian" id="bsdutils-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="util-linux-2.36.1-8-srcpkg" target="bsdutils-arm64" id="util-linux-2.36.1-8-srcpkg--bsdutils-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libgssapi-krb5-2-arm64" target="libc6-arm64" id="libgssapi-krb5-2-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgssapi-krb5-2-arm64" target="libcom-err2-arm64" id="libgssapi-krb5-2-arm64--libcom-err2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgssapi-krb5-2-arm64" target="libk5crypto3-arm64" id="libgssapi-krb5-2-arm64--libk5crypto3-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgssapi-krb5-2-arm64" target="libkrb5-3-arm64" id="libgssapi-krb5-2-arm64--libkrb5-3-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgssapi-krb5-2-arm64" target="libkrb5support0-arm64" id="libgssapi-krb5-2-arm64--libkrb5support0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="krb5-1.18.3-6-srcpkg" target="libgssapi-krb5-2-arm64" id="krb5-1.18.3-6-srcpkg--libgssapi-krb5-2-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="base-passwd-arm64" target="Debian" id="base-passwd-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="base-passwd-arm64" target="libc6-arm64" id="base-passwd-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="base-passwd-arm64" target="libdebconfclient0-arm64" id="base-passwd-arm64--libdebconfclient0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="base-passwd-arm64" target="debconf-all" id="base-passwd-arm64--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="base-passwd-arm64" target="debconf-all" id="base-passwd-arm64--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="base-passwd-3.5.51-srcpkg" target="base-passwd-arm64" id="base-passwd-3.5.51-srcpkg--base-passwd-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libpam0g-arm64" target="libaudit1-arm64" id="libpam0g-arm64--libaudit1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam0g-arm64" target="libc6-arm64" id="libpam0g-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam0g-arm64" target="debconf-all" id="libpam0g-arm64--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam0g-arm64" target="debconf-all" id="libpam0g-arm64--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="pam-1.4.0-9-srcpkg" target="libpam0g-arm64" id="pam-1.4.0-9-srcpkg--libpam0g-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="tzdata-all" target="Debian" id="tzdata-all--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="tzdata-all" target="debconf-all" id="tzdata-all--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="tzdata-all" target="debconf-all" id="tzdata-all--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="tzdata-2021a-1-srcpkg" target="tzdata-all" id="tzdata-2021a-1-srcpkg--tzdata-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="diffutils-arm64" target="Debian" id="diffutils-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="diffutils-1.3.7-5-srcpkg" target="diffutils-arm64" id="diffutils-1.3.7-5-srcpkg--diffutils-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="e2fsprogs-arm64" target="Debian" id="e2fsprogs-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="e2fsprogs-arm64" target="logsave-arm64" id="e2fsprogs-arm64--logsave-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-arm64" target="libblkid1-arm64" id="e2fsprogs-arm64--libblkid1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-arm64" target="libc6-arm64" id="e2fsprogs-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-arm64" target="libcom-err2-arm64" id="e2fsprogs-arm64--libcom-err2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-arm64" target="libext2fs2-arm64" id="e2fsprogs-arm64--libext2fs2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-arm64" target="libss2-arm64" id="e2fsprogs-arm64--libss2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-arm64" target="libuuid1-arm64" id="e2fsprogs-arm64--libuuid1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-1.46.2-2-srcpkg" target="e2fsprogs-arm64" id="e2fsprogs-1.46.2-2-srcpkg--e2fsprogs-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libtirpc-1.3.1-1-srcpkg" target="libtirpc-common-all" id="libtirpc-1.3.1-1-srcpkg--libtirpc-common-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="login-arm64" target="Debian" id="login-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="shadow-1.4.8.1-1-srcpkg" target="login-arm64" id="shadow-1.4.8.1-1-srcpkg--login-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libkrb5support0-arm64" target="libc6-arm64" id="libkrb5support0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="krb5-1.18.3-6-srcpkg" target="libkrb5support0-arm64" id="krb5-1.18.3-6-srcpkg--libkrb5support0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="tar-arm64" target="Debian" id="tar-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="tar-1.34.dfsg-1-srcpkg" target="tar-arm64" id="tar-1.34.dfsg-1-srcpkg--tar-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="adduser-all" target="passwd-arm64" id="adduser-all--passwd-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="adduser-all" target="debconf-all" id="adduser-all--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="adduser-all" target="debconf-all" id="adduser-all--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="adduser-3.118-srcpkg" target="adduser-all" id="adduser-3.118-srcpkg--adduser-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libgmp10-arm64" target="libc6-arm64" id="libgmp10-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gmp-2.6.2.1.dfsg-1-srcpkg" target="libgmp10-arm64" id="gmp-2.6.2.1.dfsg-1-srcpkg--libgmp10-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libgnutls30-arm64" target="libgmp10-arm64" id="libgnutls30-arm64--libgmp10-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgnutls30-arm64" target="libc6-arm64" id="libgnutls30-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgnutls30-arm64" target="libhogweed6-arm64" id="libgnutls30-arm64--libhogweed6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgnutls30-arm64" target="libidn2-0-arm64" id="libgnutls30-arm64--libidn2-0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgnutls30-arm64" target="libnettle8-arm64" id="libgnutls30-arm64--libnettle8-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgnutls30-arm64" target="libp11-kit0-arm64" id="libgnutls30-arm64--libp11-kit0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgnutls30-arm64" target="libtasn1-6-arm64" id="libgnutls30-arm64--libtasn1-6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgnutls30-arm64" target="libunistring2-arm64" id="libgnutls30-arm64--libunistring2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gnutls28-3.7.1-5-srcpkg" target="libgnutls30-arm64" id="gnutls28-3.7.1-5-srcpkg--libgnutls30-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libgcrypt20-arm64" target="libc6-arm64" id="libgcrypt20-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgcrypt20-arm64" target="libgpg-error0-arm64" id="libgcrypt20-arm64--libgpg-error0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libgcrypt20-1.8.7-6-srcpkg" target="libgcrypt20-arm64" id="libgcrypt20-1.8.7-6-srcpkg--libgcrypt20-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="hostname-arm64" target="Debian" id="hostname-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="hostname-3.23-srcpkg" target="hostname-arm64" id="hostname-3.23-srcpkg--hostname-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libtirpc3-arm64" target="libc6-arm64" id="libtirpc3-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libtirpc3-arm64" target="libgssapi-krb5-2-arm64" id="libtirpc3-arm64--libgssapi-krb5-2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libtirpc3-arm64" target="libtirpc-common-all" id="libtirpc3-arm64--libtirpc-common-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libtirpc-1.3.1-1-srcpkg" target="libtirpc3-arm64" id="libtirpc-1.3.1-1-srcpkg--libtirpc3-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="gzip-arm64" target="Debian" id="gzip-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="gzip-arm64" target="dpkg-arm64" id="gzip-arm64--dpkg-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gzip-arm64" target="libc6-arm64" id="gzip-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gzip-1.10-4-srcpkg" target="gzip-arm64" id="gzip-1.10-4-srcpkg--gzip-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libblkid1-arm64" target="libc6-arm64" id="libblkid1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-2.36.1-8-srcpkg" target="libblkid1-arm64" id="util-linux-2.36.1-8-srcpkg--libblkid1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libunistring2-arm64" target="libc6-arm64" id="libunistring2-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libunistring-0.9.10-4-srcpkg" target="libunistring2-arm64" id="libunistring-0.9.10-4-srcpkg--libunistring2-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libpam-runtime-all" target="Debian" id="libpam-runtime-all--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="libpam-runtime-all" target="debconf-all" id="libpam-runtime-all--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam-runtime-all" target="debconf-all" id="libpam-runtime-all--debconf-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libpam-runtime-all" target="libpam-modules-arm64" id="libpam-runtime-all--libpam-modules-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="pam-1.4.0-9-srcpkg" target="libpam-runtime-all" id="pam-1.4.0-9-srcpkg--libpam-runtime-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libstdc.6-arm64" target="gcc-10-base-arm64" id="libstdc.6-arm64--gcc-10-base-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libstdc.6-arm64" target="libc6-arm64" id="libstdc.6-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libstdc.6-arm64" target="libgcc-s1-arm64" id="libstdc.6-arm64--libgcc-s1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="gcc-10-10.2.1-6-srcpkg" target="libstdc.6-arm64" id="gcc-10-10.2.1-6-srcpkg--libstdc.6-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="grep-arm64" target="Debian" id="grep-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="grep-arm64" target="dpkg-arm64" id="grep-arm64--dpkg-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="grep-arm64" target="libc6-arm64" id="grep-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="grep-arm64" target="libpcre3-arm64" id="grep-arm64--libpcre3-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="grep-3.6-1-srcpkg" target="grep-arm64" id="grep-3.6-1-srcpkg--grep-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="sed-arm64" target="Debian" id="sed-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="sed-4.7-1-srcpkg" target="sed-arm64" id="sed-4.7-1-srcpkg--sed-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libpcre2-8-0-arm64" target="libc6-arm64" id="libpcre2-8-0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="pcre2-10.36-2-srcpkg" target="libpcre2-8-0-arm64" id="pcre2-10.36-2-srcpkg--libpcre2-8-0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libnsl2-arm64" target="libc6-arm64" id="libnsl2-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libnsl2-arm64" target="libtirpc3-arm64" id="libnsl2-arm64--libtirpc3-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libnsl-1.3.0-2-srcpkg" target="libnsl2-arm64" id="libnsl-1.3.0-2-srcpkg--libnsl2-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="passwd-arm64" target="Debian" id="passwd-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="passwd-arm64" target="libaudit1-arm64" id="passwd-arm64--libaudit1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="passwd-arm64" target="libc6-arm64" id="passwd-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="passwd-arm64" target="libcrypt1-arm64" id="passwd-arm64--libcrypt1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="passwd-arm64" target="libpam0g-arm64" id="passwd-arm64--libpam0g-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="passwd-arm64" target="libselinux1-arm64" id="passwd-arm64--libselinux1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="passwd-arm64" target="libsemanage1-arm64" id="passwd-arm64--libsemanage1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="passwd-arm64" target="libpam-modules-arm64" id="passwd-arm64--libpam-modules-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="shadow-1.4.8.1-1-srcpkg" target="passwd-arm64" id="shadow-1.4.8.1-1-srcpkg--passwd-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libsepol1-arm64" target="libc6-arm64" id="libsepol1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libsepol-3.1-1-srcpkg" target="libsepol1-arm64" id="libsepol-3.1-1-srcpkg--libsepol1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="apt-arm64" target="Debian" id="apt-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="apt-arm64" target="adduser-all" id="apt-arm64--adduser-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="gpgv-arm64" id="apt-arm64--gpgv-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="libapt-pkg6.0-arm64" id="apt-arm64--libapt-pkg6.0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="debian-archive-keyring-all" id="apt-arm64--debian-archive-keyring-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="libc6-arm64" id="apt-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="libgcc-s1-arm64" id="apt-arm64--libgcc-s1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="libgnutls30-arm64" id="apt-arm64--libgnutls30-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="libseccomp2-arm64" id="apt-arm64--libseccomp2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="libstdc.6-arm64" id="apt-arm64--libstdc.6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-arm64" target="libsystemd0-arm64" id="apt-arm64--libsystemd0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="apt-2.2.4-srcpkg" target="apt-arm64" id="apt-2.2.4-srcpkg--apt-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="debian-archive-keyring-2021.1.1-srcpkg" target="debian-archive-keyring-all" id="debian-archive-keyring-2021.1.1-srcpkg--debian-archive-keyring-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libss2-arm64" target="libcom-err2-arm64" id="libss2-arm64--libcom-err2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libss2-arm64" target="libc6-arm64" id="libss2-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="e2fsprogs-1.46.2-2-srcpkg" target="libss2-arm64" id="e2fsprogs-1.46.2-2-srcpkg--libss2-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libzstd1-arm64" target="libc6-arm64" id="libzstd1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libzstd-1.4.8.dfsg-2.1-srcpkg" target="libzstd1-arm64" id="libzstd-1.4.8.dfsg-2.1-srcpkg--libzstd1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="bash-arm64" target="Debian" id="bash-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="bash-arm64" target="base-files-arm64" id="bash-arm64--base-files-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="bash-arm64" target="debianutils-arm64" id="bash-arm64--debianutils-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="bash-arm64" target="libc6-arm64" id="bash-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="bash-arm64" target="libtinfo6-arm64" id="bash-arm64--libtinfo6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="bash-5.1-2-srcpkg" target="bash-arm64" id="bash-5.1-2-srcpkg--bash-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libselinux1-arm64" target="libc6-arm64" id="libselinux1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libselinux1-arm64" target="libpcre2-8-0-arm64" id="libselinux1-arm64--libpcre2-8-0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libselinux-3.1-3-srcpkg" target="libselinux1-arm64" id="libselinux-3.1-3-srcpkg--libselinux1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="systemd-247.3-6-srcpkg" target="libsystemd0-arm64" id="systemd-247.3-6-srcpkg--libsystemd0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libxxhash0-arm64" target="libc6-arm64" id="libxxhash0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="xxhash-0.8.0-2-srcpkg" target="libxxhash0-arm64" id="xxhash-0.8.0-2-srcpkg--libxxhash0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="ncurses-base-all" target="Debian" id="ncurses-base-all--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="ncurses-6.2.20201114-2-srcpkg" target="ncurses-base-all" id="ncurses-6.2.20201114-2-srcpkg--ncurses-base-all">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="sysvinit-utils-arm64" target="Debian" id="sysvinit-utils-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="sysvinit-utils-arm64" target="lsb-base-all" id="sysvinit-utils-arm64--lsb-base-all">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="sysvinit-utils-arm64" target="libc6-arm64" id="sysvinit-utils-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="sysvinit-2.96-7-srcpkg" target="sysvinit-utils-arm64" id="sysvinit-2.96-7-srcpkg--sysvinit-utils-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libattr1-arm64" target="libc6-arm64" id="libattr1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="attr-1.2.4.48-6-srcpkg" target="libattr1-arm64" id="attr-1.2.4.48-6-srcpkg--libattr1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libkeyutils1-arm64" target="libc6-arm64" id="libkeyutils1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="keyutils-1.6.1-2-srcpkg" target="libkeyutils1-arm64" id="keyutils-1.6.1-2-srcpkg--libkeyutils1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libuuid1-arm64" target="libc6-arm64" id="libuuid1-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-2.36.1-8-srcpkg" target="libuuid1-arm64" id="util-linux-2.36.1-8-srcpkg--libuuid1-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libkrb5-3-arm64" target="libc6-arm64" id="libkrb5-3-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libkrb5-3-arm64" target="libcom-err2-arm64" id="libkrb5-3-arm64--libcom-err2-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libkrb5-3-arm64" target="libk5crypto3-arm64" id="libkrb5-3-arm64--libk5crypto3-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libkrb5-3-arm64" target="libkeyutils1-arm64" id="libkrb5-3-arm64--libkeyutils1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libkrb5-3-arm64" target="libkrb5support0-arm64" id="libkrb5-3-arm64--libkrb5support0-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libkrb5-3-arm64" target="libssl1.1-arm64" id="libkrb5-3-arm64--libssl1.1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="krb5-1.18.3-6-srcpkg" target="libkrb5-3-arm64" id="krb5-1.18.3-6-srcpkg--libkrb5-3-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libdebconfclient0-arm64" target="libc6-arm64" id="libdebconfclient0-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="cdebconf-0.260-srcpkg" target="libdebconfclient0-arm64" id="cdebconf-0.260-srcpkg--libdebconfclient0-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libseccomp2-arm64" target="libc6-arm64" id="libseccomp2-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libseccomp-2.5.1-1-srcpkg" target="libseccomp2-arm64" id="libseccomp-2.5.1-1-srcpkg--libseccomp2-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="mount-arm64" target="Debian" id="mount-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="mount-arm64" target="util-linux-arm64" id="mount-arm64--util-linux-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="mount-arm64" target="libblkid1-arm64" id="mount-arm64--libblkid1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="mount-arm64" target="libc6-arm64" id="mount-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="mount-arm64" target="libmount1-arm64" id="mount-arm64--libmount1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="mount-arm64" target="libsmartcols1-arm64" id="mount-arm64--libsmartcols1-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="util-linux-2.36.1-8-srcpkg" target="mount-arm64" id="util-linux-2.36.1-8-srcpkg--mount-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="gcc-10-base-arm64" target="Debian" id="gcc-10-base-arm64--Debian">
+      <data key="d_reltype">package_of</data>
+    </edge>
+    <edge source="gcc-10-10.2.1-6-srcpkg" target="gcc-10-base-arm64" id="gcc-10-10.2.1-6-srcpkg--gcc-10-base-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+    <edge source="libffi7-arm64" target="libc6-arm64" id="libffi7-arm64--libc6-arm64">
+      <data key="d_reltype">depends_on</data>
+    </edge>
+    <edge source="libffi-3.3-6-srcpkg" target="libffi7-arm64" id="libffi-3.3-6-srcpkg--libffi7-arm64">
+      <data key="d_reltype">generates</data>
+    </edge>
+  </graph>
+</graphml>

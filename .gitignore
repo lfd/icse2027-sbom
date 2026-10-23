@@ -14,9 +14,6 @@ docs/build/
 lib/
 log/
 build/
-sbom/*
-!sbom/debian.graphml
-!sbom/debian.spdx.json
 venv/
 plot/tex/
 plot/tab/
