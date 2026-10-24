@@ -1,0 +1,45 @@
+# Example model configuration for the fit command, run as
+# "sbom-analysis fit conf/model.yml".
+
+# Name of the model, which names its output files.
+name: attention-score-trixie
+# Directory the fitted model and its tables are written to.
+model_dir: data/model
+# The configuration files of the releases to fit the model on.
+conf_files:
+  - conf/debian-bullseye-20210816.yml
+  - conf/debian-bookworm-20230612.yml
+# Names to distinguish the releases (despite overlapping names such as
+# "Debian"). Must match the number of release configuration files.
+releases:
+  - bullseye
+  - bookworm
+
+# The covariates to include in the model.
+features:
+  - churn_per_function
+  - corrective_ratio
+  - pony_factor
+  - newcomer_ratio
+  - loc
+  - cyclomatic_complexity_per_function
+# The vulnerability severities to consider in the target variable, from
+# "critical", "high", "medium" and "low".
+severities:
+  - critical
+  - high
+# Optionally, only count vulnerabilities published before a date (YYYY-MM-DD),
+# e.g. the release date.
+published_before: 2025-08-11
+
+# Inverse regularisation strength. Smaller values penalise and regularise more.
+penalty: 1.0
+# Number of bootstrap samples for leave-one-repository-out cross-validation.
+bootstrap: 500
+# The two quantiles of the fitted scores which separate the three attention
+# levels "low", "elevated" and "high".
+level_quantiles:
+  - 0.25
+  - 0.75
+# Seed of the fit, for reproducibility.
+seed: 12345

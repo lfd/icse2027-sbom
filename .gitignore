@@ -7,8 +7,6 @@
 .ipynb_checkpoints
 .idea/
 .vscode/
-conf/*
-!conf/model.yml
 data/
 docs/build/
 lib/
